@@ -9,21 +9,21 @@ type Quote = {
 const quotes: Quote[] = [
   {
     body:
-      "Great experience overall. Kiwi was friendly, professional, and made me feel very comfortable. Optional add-ons were clearly explained and reasonably priced. I left very satisfied and will definitely ask for Kiwi every time. Highly recommend.",
-    name: "Ruben C.",
-    role: "Verified Google review · Two months ago",
+      "Arriving at the spacious, bright lobby with its warm decor, I entered the comfortable room with its crisp white sheets and neatly arranged towels. Sia then gave me the most relaxing massage. I've truly fallen in love with this place. I'll definitely be back.",
+    name: "David Z.",
+    role: "Verified Google review · Six months ago",
   },
   {
     body:
-      "I came in with a sore back and tight shoulders, and the therapist worked pure magic. She had just the right mix of pressure and rhythm that made every muscle relax. You can tell she's really experienced — every move felt intentional and on target.",
-    name: "Alyah H.",
-    role: "Local Guide · Five months ago",
+      "I'd been a frequent customer for several months. In my experience the staff is polite and professional. The prices are fair compared to an orthopedic clinic, and my back and neck aches are resolved.",
+    name: "Jose S.",
+    role: "Local Guide · A year ago",
   },
   {
     body:
-      "I had a strain in my lower back and thought I'd give an Asian massage a try. The place looks clean, well-maintained. Luna took me to a small private room — thorough, effective. I left feeling much, much better.",
-    name: "Jimmy D.",
-    role: "Verified Google review · Five months ago",
+      "After working, I find this shop. The masseuse is professional, the price is good — only $50 an hour. It's good for couples too. After the massage I feel very, very relaxed.",
+    name: "Xiaodong C.",
+    role: "Verified Google review · A year ago",
   },
 ];
 
@@ -119,10 +119,10 @@ export default function Testimonials() {
 
         <Reveal variant="fade">
           <div className="mt-24 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-hairline pt-10 text-[13px] text-ink/65">
-            <span className="display text-[32px] text-ink">4.5★</span>
-            <span>Across Google reviews · still growing by word of mouth</span>
+            <span className="display text-[32px] text-ink">4.2★</span>
+            <span>17 verified Google reviews · still growing by word of mouth</span>
             <span aria-hidden className="hidden md:inline">·</span>
-            <span>6956 El Cajon Blvd</span>
+            <span>6979 El Cajon Blvd, San Diego</span>
           </div>
         </Reveal>
       </div>

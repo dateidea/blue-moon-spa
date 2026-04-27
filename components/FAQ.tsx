@@ -12,10 +12,10 @@ const faqs: QA[] = [
       <>
         Both are fine. Walk-ins are honestly welcome — there&rsquo;s almost always
         an opening within thirty minutes if you arrive before 10 PM. If you
-        want a specific time or therapist (Kiwi or Luna get requested by
-        name), please call ahead at{" "}
-        <a className="link-underline text-clay" href="tel:+16197246464">
-          (619) 724-6464
+        want a specific time or therapist (Sia gets requested by name),
+        please call ahead at{" "}
+        <a className="link-underline text-clay" href="tel:+18583815959">
+          (858) 381-5959
         </a>
         .
       </>
@@ -25,11 +25,11 @@ const faqs: QA[] = [
     q: "How much does it cost? Are there hidden fees?",
     a: (
       <>
-        The Custom Hour — Swedish, deep tissue, or both — is $79.99 with free
-        essential oil and free hot stone work included. Foot reflexology is
-        $59.99. That&rsquo;s the whole price list. No membership fees, no booking
-        fees. Tipping is appreciated but never required and never appears on
-        the bill.
+        Full body, sixty minutes — $50. Foot massage, sixty minutes — $50.
+        Shiatsu, sixty minutes — $60. Couples room — $95 per person. New
+        clients get $10 off the first session. No membership fees, no booking
+        fees, no surprise upcharges. Tipping is appreciated but never required
+        and never appears on the bill.
       </>
     ),
   },
@@ -49,19 +49,19 @@ const faqs: QA[] = [
     a: (
       <>
         Yes — every day, including Sunday. The last appointment goes on the
-        table at 10 PM and the doors lock at 11 PM. If you&rsquo;re coming late
-        after a shift, please call so we can keep someone on for you.
+        table around 10 PM and the doors lock at 11 PM. If you&rsquo;re coming
+        late after a shift, please call so we can keep someone on for you.
       </>
     ),
   },
   {
-    q: "What is actually included in the $79.99?",
+    q: "How does the couples room work?",
     a: (
       <>
-        A full sixty minutes on the table, your choice of Swedish, deep tissue,
-        or a combination of both. Free hot stones placed along the back and
-        shoulders. Free essential oil — lavender, eucalyptus, or unscented.
-        Hot tea before, hot tea after. Nothing extra to opt into.
+        Two practitioners, one quiet room, side-by-side tables. Same hour,
+        same warm towels, same cup of tea after. The couples room books up
+        before the rest of the studio — calling ahead is the difference
+        between a yes and a maybe.
       </>
     ),
   },
@@ -69,7 +69,11 @@ const faqs: QA[] = [
     q: "Where do I park?",
     a: (
       <>
-        Free parking lot directly in front of the studio at 6956 El Cajon Blvd</>
+        Free parking lot directly in front of the studio at 6979 El Cajon
+        Blvd, between 69th and 70th Street. Street parking on College Avenue
+        if the lot is full. We&rsquo;re a one-minute drive from SDSU and on the
+        1 and 815 bus lines.
+      </>
     ),
   },
   {

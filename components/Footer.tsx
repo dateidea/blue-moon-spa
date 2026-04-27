@@ -9,8 +9,8 @@ export default function Footer() {
             <Logo />
             <p className="mt-6 max-w-[36ch] text-[14px] leading-[1.8] text-ink/70">
               A small, Asian-owned massage studio on El Cajon Boulevard. Open
-              every day, 9 AM to 10:30 PM. Walk-ins welcome. Custom Hour: $79.99,
-              with hot stones and essential oil included.
+              every day, 9 AM to 11 PM. Walk-ins welcome. New clients get $10
+              off the first session.
             </p>
             <a
               href="#booking"
@@ -23,11 +23,11 @@ export default function Footer() {
           <div className="col-span-6 md:col-span-2 md:col-start-7">
             <p className="eyebrow">Visit</p>
             <address className="mt-4 not-italic text-[14px] leading-[1.8] text-ink/85">
-              6956 El Cajon Blvd<br />
+              6979 El Cajon Blvd<br />
               San Diego, CA 92115
             </address>
             <a
-              href="https://maps.app.goo.gl/4wrpXnSY2Wy9iGuD9"
+              href="https://maps.app.goo.gl/5R3WdrN6BM31wU9x6"
               target="_blank"
               rel="noreferrer"
               className="link-underline mt-4 inline-block text-[13px] text-clay"
@@ -48,10 +48,10 @@ export default function Footer() {
           <div className="col-span-12 md:col-span-3">
             <p className="eyebrow">Reach us</p>
             <a
-              href="tel:+16197246464"
+              href="tel:+18583815959"
               className="display mt-3 block text-[32px] leading-none text-clay"
             >
-              (619) 724-6464
+              (858) 381-5959
             </a>
             <ul className="mt-6 flex flex-col gap-2 text-[13px] text-ink/70">
               <li><a className="link-underline" href="#services">Services</a></li>
@@ -64,9 +64,9 @@ export default function Footer() {
 
         <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-hairline pt-8 text-[12px] text-ink/55 md:flex-row md:items-center">
           <p>
-            © {new Date().getFullYear()} Happy Spa. All rights reserved.
+            © {new Date().getFullYear()} Pure Massage. All rights reserved.
           </p>
-          <p>Asian-owned · LGBTQ+ friendly · Tipping never required</p>
+          <p>Asian-owned · Cash, card &amp; Apple Pay accepted</p>
         </div>
       </div>
     </footer>
