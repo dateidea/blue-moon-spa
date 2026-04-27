@@ -32,7 +32,7 @@ export default function About() {
           >
             <div
               role="img"
-              aria-label="Pure Massage front room — spacious, bright lobby with warm decor and ivory linen towels"
+              aria-label="Happy Spa front room — spacious, bright lobby with warm decor and ivory linen towels"
               className="img-placeholder h-full w-full"
               style={{
                 backgroundImage: `url(${asset("/images/about-01.jpg")})`,
@@ -45,7 +45,7 @@ export default function About() {
           <Reveal variant="fade" delay={120} className="col-span-12 md:col-span-7 md:col-start-1">
             <div className="space-y-6 text-[16px] leading-[1.8] text-ink/75">
               <p>
-                Pure Massage is the kind of place we wished existed when we
+                Happy Spa is the kind of place we wished existed when we
                 were the ones working twelve-hour shifts. A spacious, bright
                 lobby with warm decor. Comfortable rooms with crisp white
                 sheets and neatly arranged towels. Hot tea in the kettle,
@@ -78,7 +78,7 @@ export default function About() {
               <div>
                 <p className="eyebrow">Address</p>
                 <p className="mt-2 text-ink/85">
-                  6979 El Cajon Blvd, San Diego
+                  6956 El Cajon Blvd, San Diego
                 </p>
               </div>
               <div>

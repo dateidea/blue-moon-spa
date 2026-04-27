@@ -48,10 +48,10 @@ export default function Booking() {
               <div>
                 <p className="eyebrow">Or, faster</p>
                 <a
-                  href="tel:+18583815959"
+                  href="tel:+16197246464"
                   className="display mt-3 block text-[40px] leading-none text-clay hover:text-clay-deep md:text-[52px]"
                 >
-                  (858) 381-5959
+                  (619) 724-6464
                 </a>
                 <p className="mt-3 text-[14px] text-ink/55">
                   Picked up by a real person, every day, 9 AM – 11 PM.
@@ -61,7 +61,7 @@ export default function Booking() {
               <div>
                 <p className="eyebrow">Walk-ins</p>
                 <p className="mt-3 text-[15px] text-ink/75">
-                  6979 El Cajon Blvd, San Diego, CA 92115. Free lot in front.
+                  6956 El Cajon Blvd, San Diego, CA 92115. Free lot in front.
                   We can almost always fit you in within 30 minutes — try us.
                 </p>
               </div>
@@ -167,10 +167,10 @@ export default function Booking() {
                   <p className="mt-6 max-w-[44ch] text-[16px] text-ink/75">
                     If you don&rsquo;t hear from us by tomorrow morning, please call{" "}
                     <a
-                      href="tel:+18583815959"
+                      href="tel:+16197246464"
                       className="link-underline text-clay"
                     >
-                      (858) 381-5959
+                      (619) 724-6464
                     </a>
                     . Sometimes texts don&rsquo;t make it through and we hate to keep
                     you waiting.

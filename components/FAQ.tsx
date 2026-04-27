@@ -14,8 +14,8 @@ const faqs: QA[] = [
         an opening within thirty minutes if you arrive before 10 PM. If you
         want a specific time or therapist (Sia gets requested by name),
         please call ahead at{" "}
-        <a className="link-underline text-clay" href="tel:+18583815959">
-          (858) 381-5959
+        <a className="link-underline text-clay" href="tel:+16197246464">
+          (619) 724-6464
         </a>
         .
       </>
@@ -69,8 +69,7 @@ const faqs: QA[] = [
     q: "Where do I park?",
     a: (
       <>
-        Free parking lot directly in front of the studio at 6979 El Cajon
-        Blvd, between 69th and 70th Street. Street parking on College Avenue
+        Free parking lot directly in front of the studio at 6956 El Cajon Blvd, between 69th and 70th Street. Street parking on College Avenue
         if the lot is full. We&rsquo;re a one-minute drive from SDSU and on the
         1 and 815 bus lines.
       </>
