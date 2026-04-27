@@ -32,10 +32,10 @@ export default function About() {
           >
             <div
               role="img"
-              aria-label="Happy Spa"
+              aria-label="Pure Massage front room — spacious, bright lobby with warm decor and ivory linen towels"
               className="img-placeholder h-full w-full"
               style={{
-                backgroundImage: `url(${asset("/images/about-01.png")})`,
+                backgroundImage: `url(${asset("/images/about-01.jpg")})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
               }}
@@ -45,18 +45,18 @@ export default function About() {
           <Reveal variant="fade" delay={120} className="col-span-12 md:col-span-7 md:col-start-1">
             <div className="space-y-6 text-[16px] leading-[1.8] text-ink/75">
               <p>
-                Happy Spa is the kind of place we wished existed when we were
-                the ones working twelve-hour shifts. A small front room with
-                warm decor. Quiet treatment rooms with crisp linen and neatly
-                folded towels. Hot stones warming on the counter most days,
-                hot tea in the kettle every day.
+                Pure Massage is the kind of place we wished existed when we
+                were the ones working twelve-hour shifts. A spacious, bright
+                lobby with warm decor. Comfortable rooms with crisp white
+                sheets and neatly arranged towels. Hot tea in the kettle,
+                every day.
               </p>
               <p>
-                Our practitioners — Kiwi, Luna, and the team — are trained in
-                Swedish, deep tissue, hot stone, and foot reflexology. We don&rsquo;t
-                sell memberships. We don&rsquo;t push add-ons. We don&rsquo;t have a
-                points program. The price you see at the door is the price you
-                pay, and a real hour means sixty minutes on the table.
+                Our practitioners — Sia and the team — are trained in full
+                body, foot, shiatsu, and couples massage. We don&rsquo;t sell
+                memberships. We don&rsquo;t push add-ons. We don&rsquo;t have
+                a points program. The price you see at the door is the price
+                you pay, and a real hour means sixty minutes on the table.
               </p>
               <p>
                 What we are trying to do is straightforward: give people an
@@ -68,22 +68,23 @@ export default function About() {
               <div>
                 <p className="eyebrow">Specialties</p>
                 <p className="mt-2 text-ink/85">
-                  Swedish, deep tissue, hot stone, foot
+                  Full body, foot, shiatsu, couples
                 </p>
               </div>
               <div>
                 <p className="eyebrow">Hours</p>
-                <p className="mt-2 text-ink/85">Daily, 9 AM – 10 PM</p>
+                <p className="mt-2 text-ink/85">Daily, 9 AM – 11 PM</p>
               </div>
               <div>
                 <p className="eyebrow">Address</p>
                 <p className="mt-2 text-ink/85">
-                  6956 El Cajon Blvd</p>
+                  6979 El Cajon Blvd, San Diego
+                </p>
               </div>
               <div>
                 <p className="eyebrow">House rate</p>
                 <p className="mt-2 text-ink/85">
-                  $79.99 / hour, all-in &middot; LGBTQ+ friendly
+                  $50 / hour, all-in &middot; $10 off first visit
                 </p>
               </div>
             </div>
