@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="grid grid-cols-12 gap-6">
           <Reveal variant="fade" className="col-span-12">
             <p className="eyebrow mb-10 text-cream/80">
-              ZEN Massage &middot; <span className="smallcaps">Established</span>
+              Blue Moon Spa &middot; <span className="smallcaps">Established</span>
               {" "}on El Cajon Boulevard, San Diego
             </p>
           </Reveal>
@@ -64,10 +64,10 @@ export default function Hero() {
                 Book a session
               </a>
               <a
-                href="tel:+16195480773"
+                href="tel:+16265222888"
                 className="link-underline text-[14px] tracking-[0.05em] text-cream"
               >
-                Or call (619) 548-0773
+                Or call (626) 522-2888
               </a>
             </div>
           </Reveal>
@@ -88,7 +88,7 @@ export default function Hero() {
 
       <div className="relative mx-auto w-full max-w-[1180px] px-6 pb-6 text-[11px] tracking-[0.22em] uppercase text-cream/65 md:px-10 md:pb-8 flex flex-wrap items-center justify-between gap-4">
         <span>Asian-owned · LGBTQ+ friendly</span>
-        <span>4.7★ — Google reviews</span>
+        <span>4.5★ — Google reviews</span>
         <span aria-hidden>Scroll ↓</span>
       </div>
     </section>
