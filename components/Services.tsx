@@ -15,49 +15,49 @@ type Service = {
 const services: Service[] = [
   {
     num: "I",
-    name: "The Custom Hour",
+    name: "Full Body",
     description:
-      "Sixty minutes head-to-toe — Swedish strokes, deep tissue, or both, your call. Free essential oil and free hot stone work included, every time. The signature service. Most clients leave on this and rebook on the way out.",
+      "Sixty minutes head-to-toe — soothing strokes through the back, neck, shoulders, glutes, legs, and arms. Medium pressure unless you say otherwise. Warm oil, crisp white sheets, hot tea after. The default for a reason.",
     outcome:
-      "For: the long week, the locked-up shoulders, the night you finally have to yourself.",
+      "For: the long week, the stiff neck, the bad chair at work.",
     duration: "60 min",
-    price: "$79.99",
+    price: "$50",
     image: "/images/service-relax-01.jpg",
-    alt: "Architectural interior of a hammam treatment room — heavy marble, hot towels stacked on a marble bench, warm tungsten light, faint steam",
+    alt: "Cedar massage table dressed with neatly folded ivory linen, soft window light",
   },
   {
     num: "II",
-    name: "Deep Tissue",
+    name: "Foot Massage",
     description:
-      "Slow-loaded forearm and elbow work into the layer beneath the surface. Not just \"harder pressure everywhere\" — the right knot, the right tool, the right amount of time. We pick the depth together at the ten-minute mark.",
-    outcome: "For: chronic knots, athletes, anyone who lifts things for a living.",
+      "Sixty minutes in a heated recliner — hot towel, warm oil, targeted pressure through the arch, the calf, and the reflex points along the heel and ear. Most clients close their eyes inside the first ten minutes.",
+    outcome: "For: nurses, servers, parents — anyone who has been on their feet.",
     duration: "60 min",
-    price: "$79.99",
-    image: "/images/service-deep-02.jpg",
-    alt: "Hands wringing a hot towel over a copper basin, painterly tungsten light, warm steam rising, marble and brass surroundings",
+    price: "$50",
+    image: "/images/service-foot-04.jpg",
+    alt: "Hands working on the arch of a foot resting on a folded warm ivory towel, warm window light",
   },
   {
     num: "III",
-    name: "Hot Stone Therapy",
+    name: "Shiatsu",
     description:
-      "Smooth basalt stones warmed in water, worked along the back and shoulders to draw the deep stuff out. Already included in The Custom Hour — call it out at the front desk and we will prep the stones before you arrive.",
+      "Japanese pressure-point therapy through loose clothing. Slow, loaded body weight on specific points along the meridians. Asks more of the practitioner than oil massage does. Closer to assisted yoga than spa fluff.",
     outcome:
-      "For: cold-weather days, deep stress, the kind of week that sits in your back.",
-    duration: "Included with the hour",
-    price: "Included",
-    image: "/images/service-stone-03.jpg",
-    alt: "Six smooth dark basalt stones arranged on a brass tray atop classic marble tilework, single warm spotlight, faint steam",
+      "For: chronic knots, athletes, people who lift things for a living.",
+    duration: "60 min",
+    price: "$60",
+    image: "/images/service-deep-02.jpg",
+    alt: "Forearm pressure on the upper back, soft tungsten lighting, deep shadow across the lower frame",
   },
   {
     num: "IV",
-    name: "Foot Reflexology",
+    name: "Couples Room",
     description:
-      "Sixty minutes in a heated recliner with a hot towel and warm oil. Targeted pressure through the arch, the calf, and the reflex points along the heel. Most clients close their eyes inside the first ten minutes.",
-    outcome: "For: nurses, servers, parents — anyone on their feet all day.",
-    duration: "60 min",
-    price: "$59.99",
-    image: "/images/service-foot-04.jpg",
-    alt: "Heated recliner chair in a tiled hammam alcove — warm brass floor lamp, folded ivory towel, classic geometric tile floor",
+      "Two practitioners, one quiet room, side-by-side tables. Same hour, same warm towels, same cup of tea afterward. The couples room books up before the rest of the studio — calling ahead is the difference between a yes and a maybe.",
+    outcome: "For: anniversaries, post-flight, the rare night you both have free.",
+    duration: "60 min · per person",
+    price: "$95",
+    image: "/images/service-stone-03.jpg",
+    alt: "A quiet warm couples treatment room with two side-by-side tables dressed in ivory linen, ceramic dish of warm oil between them",
   },
 ];
 
@@ -89,7 +89,8 @@ export default function Services() {
             <p className="mt-8 max-w-[58ch] text-[16px] leading-[1.75] text-ink/70">
               Most people walk in for the same reason — something hurts,
               sleep has been bad, or the week was too long. Below is the
-              entire menu. Walk-ins welcome until 10 PM. Calling ahead helps.
+              entire menu. Walk-ins welcome until 10 PM. Calling ahead helps,
+              especially for the couples room.
             </p>
           </Reveal>
         </div>
@@ -161,10 +162,10 @@ export default function Services() {
 
         <Reveal variant="fade">
           <p className="mt-16 max-w-[60ch] text-[13px] leading-[1.75] text-ink/55">
-            The Custom Hour at $79.99 is the limited-time house rate — Swedish,
-            deep tissue, or a combination, with free essential oil and free
-            hot stones included. Cash and card both accepted. Tipping is
-            appreciated but never required and never appears on the bill.
+            New clients get $10 off the first session — no code needed, just
+            mention it at the front desk. Add 30 minutes to any service for
+            $25. Cash, card, and Apple Pay all accepted. Tipping is appreciated
+            but never appears on the bill.
           </p>
         </Reveal>
       </div>

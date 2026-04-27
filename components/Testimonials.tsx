@@ -122,7 +122,7 @@ export default function Testimonials() {
             <span className="display text-[32px] text-ink">4.5★</span>
             <span>Across Google reviews · still growing by word of mouth</span>
             <span aria-hidden className="hidden md:inline">·</span>
-            <span>5575 Baltimore Dr #106-107</span>
+            <span>6956 El Cajon Blvd</span>
           </div>
         </Reveal>
       </div>

@@ -14,8 +14,8 @@ const faqs: QA[] = [
         an opening within thirty minutes if you arrive before 10 PM. If you
         want a specific time or therapist (Kiwi or Luna get requested by
         name), please call ahead at{" "}
-        <a className="link-underline text-clay" href="tel:+16196395282">
-          (619) 639-5282
+        <a className="link-underline text-clay" href="tel:+16197246464">
+          (619) 724-6464
         </a>
         .
       </>
@@ -69,7 +69,7 @@ const faqs: QA[] = [
     q: "Where do I park?",
     a: (
       <>
-        Free parking lot directly in front of the studio at 5575 Baltimore Dr #106-107</>
+        Free parking lot directly in front of the studio at 6956 El Cajon Blvd</>
     ),
   },
   {

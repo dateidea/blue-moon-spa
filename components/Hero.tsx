@@ -33,7 +33,7 @@ export default function Hero() {
         <div className="grid grid-cols-12 gap-6">
           <Reveal variant="fade" className="col-span-12">
             <p className="eyebrow mb-10 text-cream/80">
-              Blue Moon Spa &middot; <span className="smallcaps">Established</span>
+              Happy Spa &middot; <span className="smallcaps">Established</span>
               {" "}on El Cajon Boulevard, San Diego
             </p>
           </Reveal>
@@ -51,10 +51,10 @@ export default function Hero() {
 
           <Reveal variant="fade" delay={200} className="col-span-12 md:col-span-7 mt-12">
             <p className="max-w-[46ch] text-[17px] leading-[1.75] text-cream/85 md:text-[19px]">
-              A small, Asian-owned massage studio on El Cajon Boulevard.
+              A small, massage studio on El Cajon Boulevard.
               Sixty minutes of Swedish, deep tissue, or both — with hot
               stones and warm essential oil included, every time. Open
-              every day, 9:30 AM – 10 PM. Custom Hour, $79.99.
+              every day, 9:30 AM – 10 PM. Combo: 30 min foot + 30 min body for $45.
             </p>
             <div className="mt-10 flex flex-wrap items-center gap-6">
               <a
@@ -64,10 +64,10 @@ export default function Hero() {
                 Book a session
               </a>
               <a
-                href="tel:+16265222888"
+                href="tel:+16197246464"
                 className="link-underline text-[14px] tracking-[0.05em] text-cream"
               >
-                Or call (626) 522-2888
+                Or call (619) 724-6464
               </a>
             </div>
           </Reveal>
@@ -87,7 +87,7 @@ export default function Hero() {
       </div>
 
       <div className="relative mx-auto w-full max-w-[1180px] px-6 pb-6 text-[11px] tracking-[0.22em] uppercase text-cream/65 md:px-10 md:pb-8 flex flex-wrap items-center justify-between gap-4">
-        <span>Asian-owned · LGBTQ+ friendly</span>
+        <span>· LGBTQ+ friendly</span>
         <span>4.5★ — Google reviews</span>
         <span aria-hidden>Scroll ↓</span>
       </div>
