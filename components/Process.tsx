@@ -46,7 +46,7 @@ export default function Process() {
             >
               Four steps.
               <br />
-              <span className="italic font-light text-ink/55">
+              <span className="italic font-light text-ink/90">
                 Mostly the same as
               </span>
               <br />
@@ -74,7 +74,7 @@ export default function Process() {
                 <h3 className="display mt-6 text-[28px] leading-[1.15] md:text-[36px]">
                   {s.title}
                 </h3>
-                <p className="mt-5 max-w-[42ch] text-[15px] leading-[1.8] text-ink/70">
+                <p className="mt-5 max-w-[42ch] text-[15px] leading-[1.8] text-ink/95">
                   {s.body}
                 </p>
               </div>

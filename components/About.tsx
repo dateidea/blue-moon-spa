@@ -16,10 +16,10 @@ export default function About() {
               id="about-heading"
               className="display mt-4 text-[44px] leading-[1.04] md:text-[64px]"
             >
-              A small,
+              A small
               <br />
-              <span className="italic font-light text-ink/55">
-                Asian-owned studio
+              <span className="italic font-light text-ink/90">
+                neighborhood spa
               </span>
               <br />
               on El Cajon Boulevard.
@@ -32,7 +32,7 @@ export default function About() {
           >
             <div
               role="img"
-              aria-label="Happy Spa"
+              aria-label="ViVi Sunshine Spa — folded warm towels, river stones, and a ceramic dish of oil set out on a wooden side table"
               className="img-placeholder h-full w-full"
               style={{
                 backgroundImage: `url(${asset("/images/about-01.png")})`,
@@ -43,20 +43,18 @@ export default function About() {
           </Reveal>
 
           <Reveal variant="fade" delay={120} className="col-span-12 md:col-span-7 md:col-start-1">
-            <div className="space-y-6 text-[16px] leading-[1.8] text-ink/75">
+            <div className="space-y-6 text-[16px] leading-[1.8] text-ink">
               <p>
-                Happy Spa is the kind of place we wished existed when we were
-                the ones working twelve-hour shifts. A small front room with
-                warm decor. Quiet treatment rooms with crisp linen and neatly
-                folded towels. Hot stones warming on the counter most days,
-                hot tea in the kettle every day.
+                ViVi Sunshine Spa is a small neighborhood massage studio at
+                7151 El Cajon Boulevard in San Diego, between 71st and 73rd
+                Street, just east of the College Area. Six services, one short
+                menu, real sixty-minute sessions on the table.
               </p>
               <p>
-                Our practitioners — Kiwi, Luna, and the team — are trained in
-                Swedish, deep tissue, hot stone, and foot reflexology. We don&rsquo;t
-                sell memberships. We don&rsquo;t push add-ons. We don&rsquo;t have a
-                points program. The price you see at the door is the price you
-                pay, and a real hour means sixty minutes on the table.
+                Walk in or call ahead. Sessions run from morning until eleven
+                at night, every day of the week. Sixty-minute and longer
+                bookings get twenty percent off — the same discount, every
+                visit, no card to punch and no membership to sign.
               </p>
               <p>
                 What we are trying to do is straightforward: give people an
@@ -66,24 +64,27 @@ export default function About() {
 
             <div className="mt-12 grid grid-cols-2 gap-8 border-t border-hairline pt-8 text-[13px]">
               <div>
-                <p className="eyebrow">Specialties</p>
-                <p className="mt-2 text-ink/85">
-                  Swedish, deep tissue, hot stone, foot
+                <p className="eyebrow">Services</p>
+                <p className="mt-2 text-ink">
+                  Swedish, Deep Tissue, Shiatsu, Hot Oil, Thai, Body
                 </p>
               </div>
               <div>
                 <p className="eyebrow">Hours</p>
-                <p className="mt-2 text-ink/85">Daily, 9 AM – 10 PM</p>
+                <p className="mt-2 text-ink">Daily, 9 AM – 11 PM</p>
               </div>
               <div>
                 <p className="eyebrow">Address</p>
-                <p className="mt-2 text-ink/85">
-                  6956 El Cajon Blvd</p>
+                <p className="mt-2 text-ink">
+                  7151 El Cajon Blvd, Ste K
+                  <br />
+                  San Diego, CA 92115
+                </p>
               </div>
               <div>
-                <p className="eyebrow">House rate</p>
-                <p className="mt-2 text-ink/85">
-                  $79.99 / hour, all-in &middot; LGBTQ+ friendly
+                <p className="eyebrow">Promotion</p>
+                <p className="mt-2 text-ink">
+                  20% off any 60-minute session or longer
                 </p>
               </div>
             </div>

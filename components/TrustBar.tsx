@@ -1,10 +1,10 @@
 import Reveal from "./Reveal";
 
 const stats = [
-  { value: "$50", label: "One full hour, all-in pricing" },
-  { value: "9 — 11", label: "Open every day, last booking around 10 PM" },
-  { value: "4.2★", label: "Across 17 verified Google reviews" },
-  { value: "$10 off", label: "First-visit welcome — no code needed" },
+  { value: "Six styles", label: "Swedish, Deep Tissue, Shiatsu, Hot Oil, Thai, Body" },
+  { value: "9 — 11", label: "Open every day, 9 AM to 11 PM" },
+  { value: "3.7★", label: "Across 9 verified Google reviews" },
+  { value: "20% off", label: "Any session 60 minutes or longer" },
 ];
 
 export default function TrustBar() {
@@ -21,7 +21,7 @@ export default function TrustBar() {
                 <span className="display text-[40px] leading-none text-ink md:text-[56px]">
                   {s.value}
                 </span>
-                <span className="mt-3 max-w-[20ch] text-[12px] tracking-[0.04em] leading-[1.6] text-ink/65">
+                <span className="mt-3 max-w-[24ch] text-[12px] tracking-[0.04em] leading-[1.6] text-ink/95">
                   {s.label}
                 </span>
               </li>

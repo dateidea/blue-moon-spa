@@ -6,24 +6,19 @@ type Quote = {
   role: string;
 };
 
+// Real Google review snippets, lightly trimmed. Last names abbreviated.
 const quotes: Quote[] = [
   {
     body:
-      "Great experience overall. Kiwi was friendly, professional, and made me feel very comfortable. Optional add-ons were clearly explained and reasonably priced. I left very satisfied and will definitely ask for Kiwi every time. Highly recommend.",
-    name: "Ruben C.",
-    role: "Verified Google review · Two months ago",
+      "The place was spotless. The service was great. Must try if you are in the area.",
+    name: "G.",
+    role: "Verified Google review",
   },
   {
     body:
-      "I came in with a sore back and tight shoulders, and the therapist worked pure magic. She had just the right mix of pressure and rhythm that made every muscle relax. You can tell she's really experienced — every move felt intentional and on target.",
-    name: "Alyah H.",
-    role: "Local Guide · Five months ago",
-  },
-  {
-    body:
-      "I had a strain in my lower back and thought I'd give an Asian massage a try. The place looks clean, well-maintained. Luna took me to a small private room — thorough, effective. I left feeling much, much better.",
-    name: "Jimmy D.",
-    role: "Verified Google review · Five months ago",
+      "He made me feel so relaxed and at home.",
+    name: "K.",
+    role: "Verified Google review",
   },
 ];
 
@@ -55,17 +50,15 @@ export default function Testimonials() {
               id="testimonials-heading"
               className="display text-[44px] leading-[1.04] md:text-[72px]"
             >
-              People who walked in
+              Two short reviews,
               <br />
-              <span className="italic font-light text-ink/55">
-                on a hard day,
+              <span className="italic font-light text-ink/90">
+                in their own words.
               </span>
-              <br />
-              and came back the next.
             </h2>
-            <p className="mt-8 max-w-[58ch] text-[15px] leading-[1.8] text-ink/65">
-              Real reviews from real Google profiles. Last names abbreviated,
-              words left exactly as written.
+            <p className="mt-8 max-w-[58ch] text-[15px] leading-[1.8] text-ink/95">
+              Pulled from our Google profile. Last names abbreviated, words
+              left exactly as written.
             </p>
           </Reveal>
         </div>
@@ -73,15 +66,13 @@ export default function Testimonials() {
         <div className="mt-24 grid grid-cols-12 gap-x-6 gap-y-20">
           {quotes.map((q, i) => (
             <Reveal
-              key={q.name}
+              key={q.name + i}
               variant="curtain"
               delay={i * 100}
               className={
                 i === 0
                   ? "col-span-12 md:col-span-9"
-                  : i === 1
-                  ? "col-span-12 md:col-span-6 md:col-start-1"
-                  : "col-span-12 md:col-span-6 md:col-start-7"
+                  : "col-span-12 md:col-span-7 md:col-start-6"
               }
             >
               <figure className="flex flex-col">
@@ -89,7 +80,7 @@ export default function Testimonials() {
                   className={`display leading-[1.18] text-ink ${
                     i === 0
                       ? "text-[32px] md:text-[52px]"
-                      : "text-[24px] md:text-[34px]"
+                      : "text-[28px] md:text-[40px]"
                   }`}
                 >
                   <span className="text-clay">&ldquo;</span>
@@ -109,7 +100,7 @@ export default function Testimonials() {
                   </span>
                   <div className="flex flex-col">
                     <span className="text-[14px] text-ink">{q.name}</span>
-                    <span className="text-[13px] text-ink/55">{q.role}</span>
+                    <span className="text-[13px] text-ink/90">{q.role}</span>
                   </div>
                 </figcaption>
               </figure>
@@ -118,11 +109,11 @@ export default function Testimonials() {
         </div>
 
         <Reveal variant="fade">
-          <div className="mt-24 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-hairline pt-10 text-[13px] text-ink/65">
-            <span className="display text-[32px] text-ink">4.5★</span>
-            <span>Across Google reviews · still growing by word of mouth</span>
+          <div className="mt-24 flex flex-wrap items-center gap-x-8 gap-y-3 border-t border-hairline pt-10 text-[13px] text-ink/95">
+            <span className="display text-[32px] text-ink">3.7★</span>
+            <span>9 verified Google reviews · still building word of mouth</span>
             <span aria-hidden className="hidden md:inline">·</span>
-            <span>6956 El Cajon Blvd</span>
+            <span>7151 El Cajon Blvd, Ste K · San Diego</span>
           </div>
         </Reveal>
       </div>

@@ -47,8 +47,8 @@ export default function Nav() {
             </li>
           ))}
           <li>
-            <a href="tel:+16197246464" className={`text-[13px] tracking-[0.04em] ${scrolled ? "text-ink-soft" : "text-cream/85"}`}>
-              (619) 724-6464
+            <a href="tel:+18582414343" className={`text-[13px] tracking-[0.04em] ${scrolled ? "text-ink-soft" : "text-cream"}`}>
+              (858) 241-4343
             </a>
           </li>
           <li>
@@ -85,9 +85,9 @@ export default function Nav() {
               ))}
             </ul>
             <div className="flex flex-col gap-4">
-              <a href="tel:+16197246464" className="display text-[28px] text-ink">(619) 724-6464</a>
+              <a href="tel:+18582414343" className="display text-[28px] text-ink">(858) 241-4343</a>
               <a href="#booking" onClick={() => setOpen(false)} className="btn-primary inline-flex w-full items-center justify-center rounded-full px-6 py-4 text-[11px] tracking-[0.16em] uppercase">Book a session</a>
-              <p className="text-[12px] text-mid">6956 El Cajon Blvd · San Diego · Daily 9 AM – 11 PM</p>
+              <p className="text-[12px] text-mid">7151 El Cajon Blvd, Ste K · San Diego · Daily 9 AM – 11 PM</p>
             </div>
           </div>
         </div>

@@ -15,49 +15,69 @@ type Service = {
 const services: Service[] = [
   {
     num: "I",
-    name: "Full Body",
+    name: "Swedish",
     description:
-      "Sixty minutes head-to-toe — soothing strokes through the back, neck, shoulders, glutes, legs, and arms. Medium pressure unless you say otherwise. Warm oil, crisp white sheets, hot tea after. The default for a reason.",
-    outcome:
-      "For: the long week, the stiff neck, the bad chair at work.",
+      "Long, smooth strokes with warm oil. Medium pressure unless you ask otherwise. The default — what most people walk in for, and what they rebook the next week.",
+    outcome: "For: the long week, the stiff neck, the bad chair at work.",
     duration: "60 min",
-    price: "$50",
+    price: "Call for pricing",
     image: "/images/service-relax-01.jpg",
     alt: "Cedar massage table dressed with neatly folded ivory linen, soft window light",
   },
   {
     num: "II",
-    name: "Foot Massage",
+    name: "Deep Tissue",
     description:
-      "Sixty minutes in a heated recliner — hot towel, warm oil, targeted pressure through the arch, the calf, and the reflex points along the heel and ear. Most clients close their eyes inside the first ten minutes.",
-    outcome: "For: nurses, servers, parents — anyone who has been on their feet.",
+      "Slow-loaded forearm and elbow work into the layer beneath the surface. The right knot, the right tool, the right amount of time. We pick the depth together at the ten-minute mark.",
+    outcome: "For: chronic knots, athletes, anyone who lifts things for a living.",
     duration: "60 min",
-    price: "$50",
-    image: "/images/service-foot-04.jpg",
-    alt: "Hands working on the arch of a foot resting on a folded warm ivory towel, warm window light",
+    price: "Call for pricing",
+    image: "/images/service-stone-03.jpg",
+    alt: "Seven smooth dark basalt river stones arranged in a quiet line on folded ivory linen, beside a small ceramic bowl of warm oil",
   },
   {
     num: "III",
     name: "Shiatsu",
     description:
-      "Japanese pressure-point therapy through loose clothing. Slow, loaded body weight on specific points along the meridians. Asks more of the practitioner than oil massage does. Closer to assisted yoga than spa fluff.",
-    outcome:
-      "For: chronic knots, athletes, people who lift things for a living.",
+      "Japanese pressure-point therapy through loose clothing. Slow, loaded body weight on specific points along the meridians. Closer to assisted yoga than oil massage.",
+    outcome: "For: tight hips, runners, desk workers who haven't stretched in years.",
     duration: "60 min",
-    price: "$60",
-    image: "/images/service-deep-02.jpg",
-    alt: "Forearm pressure on the upper back, soft tungsten lighting, deep shadow across the lower frame",
+    price: "Call for pricing",
+    image: "/images/service-foot-04.jpg",
+    alt: "A steaming ceramic basin set on a folded warm towel with a sprig of herb and a small dark river stone, soft window light",
   },
   {
     num: "IV",
-    name: "Couples Room",
+    name: "Hot Oil",
     description:
-      "Two practitioners, one quiet room, side-by-side tables. Same hour, same warm towels, same cup of tea afterward. The couples room books up before the rest of the studio — calling ahead is the difference between a yes and a maybe.",
-    outcome: "For: anniversaries, post-flight, the rare night you both have free.",
-    duration: "60 min · per person",
-    price: "$95",
-    image: "/images/service-stone-03.jpg",
-    alt: "A quiet warm couples treatment room with two side-by-side tables dressed in ivory linen, ceramic dish of warm oil between them",
+      "Warm oil poured along the spine and worked outward in long, slow strokes. The heat is the point — it opens up the tissue before the work begins. Most clients close their eyes inside the first ten minutes.",
+    outcome: "For: cold-weather days, deep stress, the kind of week that sits in your back.",
+    duration: "60 min",
+    price: "Call for pricing",
+    image: "/images/service-deep-02.jpg",
+    alt: "A small amber-glass massage oil bottle on a folded warm towel beside a brass lamp, intimate tungsten light",
+  },
+  {
+    num: "V",
+    name: "Thai",
+    description:
+      "On a low padded mat, in loose comfortable clothing — guided stretching, rocking, and palm pressure along the energy lines. Two-thousand-year-old technique. If you have not had Thai before, it is worth trying once.",
+    outcome: "For: tight hips, runners, anyone who hasn't stretched since college.",
+    duration: "60 min",
+    price: "Call for pricing",
+    image: "/images/service-thai-04.jpg",
+    alt: "A warm oil bowl and a single dark river stone on a wooden stool beside the cedar massage table — the tools warming before the work",
+  },
+  {
+    num: "VI",
+    name: "Body Massage",
+    description:
+      "Full-body work, head-to-toe — back, neck, shoulders, glutes, legs, arms. Medium pressure unless you say otherwise. Sixty real minutes on the table, no clock-watching.",
+    outcome: "For: the whole body kind of tired — when nothing in particular hurts but everything aches.",
+    duration: "60 min",
+    price: "Call for pricing",
+    image: "/images/service-relax-01.jpg",
+    alt: "A cedar massage table dressed with neatly folded ivory linen, hanging plant, ceramic bowl of warm oil and polished river stone on a side stool, soft window light",
   },
 ];
 
@@ -78,19 +98,19 @@ export default function Services() {
               id="services-heading"
               className="display text-[44px] leading-[1.04] md:text-[72px]"
             >
-              A short menu.
+              Six services.
               <br />
-              <span className="italic font-light text-ink/55">
+              <span className="italic font-light text-ink/90">
                 No memberships, no add-on traps,
               </span>
               <br />
               no upsell at the door.
             </h2>
-            <p className="mt-8 max-w-[58ch] text-[16px] leading-[1.75] text-ink/70">
-              Most people walk in for the same reason — something hurts,
-              sleep has been bad, or the week was too long. Below is the
-              entire menu. Walk-ins welcome until 10 PM. Calling ahead helps,
-              especially for the couples room.
+            <p className="mt-8 max-w-[58ch] text-[16px] leading-[1.75] text-ink/95">
+              Most people walk in for one of these. Pricing is best handled at
+              the door — call ahead and we will quote you the rate for the
+              service and time you want. Sixty-minute sessions and longer get
+              20% off, every visit.
             </p>
           </Reveal>
         </div>
@@ -135,23 +155,23 @@ export default function Services() {
                   <h3 className="display mt-6 text-[40px] leading-[1.04] md:text-[64px]">
                     {s.name}
                   </h3>
-                  <p className="mt-6 max-w-[42ch] text-[16px] leading-[1.75] text-ink/75">
+                  <p className="mt-6 max-w-[42ch] text-[16px] leading-[1.75] text-ink">
                     {s.description}
                   </p>
-                  <p className="mt-5 max-w-[42ch] text-[14px] italic text-ink/45">
+                  <p className="mt-5 max-w-[42ch] text-[14px] italic text-ink">
                     {s.outcome}
                   </p>
                   <div className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 text-[14px] text-ink">
-                    <span className="display text-[28px] text-clay">
+                    <span className="display text-[20px] text-clay">
                       {s.price}
                     </span>
-                    <span className="text-ink/45">·</span>
-                    <span className="text-ink/65">{s.duration}</span>
+                    <span className="text-ink">·</span>
+                    <span className="text-ink/95">{s.duration}</span>
                     <a
-                      href="#booking"
+                      href="tel:+18582414343"
                       className="ml-auto link-underline tracking-[0.04em] text-clay"
                     >
-                      Book this →
+                      Call to book →
                     </a>
                   </div>
                 </Reveal>
@@ -161,11 +181,10 @@ export default function Services() {
         </div>
 
         <Reveal variant="fade">
-          <p className="mt-16 max-w-[60ch] text-[13px] leading-[1.75] text-ink/55">
-            New clients get $10 off the first session — no code needed, just
-            mention it at the front desk. Add 30 minutes to any service for
-            $25. Cash, card, and Apple Pay all accepted. Tipping is appreciated
-            but never appears on the bill.
+          <p className="mt-16 max-w-[60ch] text-[13px] leading-[1.75] text-ink/90">
+            Sixty-minute sessions and longer get 20% off — mention it when you
+            call. Cash and card both accepted. Tipping is appreciated but never
+            required and never appears on the bill.
           </p>
         </Reveal>
       </div>

@@ -4,11 +4,12 @@ import { useState } from "react";
 import Reveal from "./Reveal";
 
 const services = [
-  "The Custom Hour, 60 min — $79.99",
-  "Deep Tissue, 60 min — $79.99",
-  "Foot Reflexology, 60 min — $59.99",
-  "Hot Stone (included with the hour)",
-  "Couples — call us, please",
+  "Swedish · 60 min",
+  "Deep Tissue · 60 min",
+  "Shiatsu · 60 min",
+  "Hot Oil · 60 min",
+  "Thai · 60 min",
+  "Body Massage · 60 min",
   "Not sure — recommend something",
 ];
 
@@ -36,32 +37,35 @@ export default function Booking() {
             >
               Let&rsquo;s pick
               <br />
-              <span className="italic font-light text-ink/55">a time.</span>
+              <span className="italic font-light text-ink/90">a time.</span>
             </h2>
-            <p className="mt-8 max-w-[44ch] text-[16px] leading-[1.8] text-ink/75">
-              Tell us when you&rsquo;re thinking and what hurts. We&rsquo;ll reply within
-              one business day. Most messages get a same-day text. No spam, no
-              follow-up sequence, no sales pressure.
+            <p className="mt-8 max-w-[44ch] text-[16px] leading-[1.8] text-ink">
+              The fastest way to book is to call us. We pick up every day from
+              9 AM to 11 PM. Or send the form below and we will reply within
+              one business day.
             </p>
 
             <div className="mt-12 space-y-8 border-t border-hairline pt-8">
               <div>
                 <p className="eyebrow">Or, faster</p>
                 <a
-                  href="tel:+16197246464"
+                  href="tel:+18582414343"
                   className="display mt-3 block text-[40px] leading-none text-clay hover:text-clay-deep md:text-[52px]"
                 >
-                  (619) 724-6464
+                  (858) 241-4343
                 </a>
-                <p className="mt-3 text-[14px] text-ink/55">
-                  Picked up by a real person, every day, 9 AM – 10 PM.
+                <p className="mt-3 text-[14px] text-ink/90">
+                  Picked up by a real person, every day, 9 AM – 11 PM.
                 </p>
               </div>
 
               <div>
                 <p className="eyebrow">Walk-ins</p>
-                <p className="mt-3 text-[15px] text-ink/75">
-                  6956 El Cajon Blvd</p>
+                <p className="mt-3 text-[15px] text-ink">
+                  7151 El Cajon Blvd, Suite K
+                  <br />
+                  San Diego, CA 92115
+                </p>
               </div>
             </div>
           </Reveal>
@@ -151,27 +155,27 @@ export default function Booking() {
                     Request a time
                   </button>
 
-                  <p className="text-[12px] text-ink/55">
-                    We&rsquo;ll respond within 1 business day. No spam. No sales
-                    pressure. Your info doesn&rsquo;t go anywhere else.
+                  <p className="text-[12px] text-ink/90">
+                    We&rsquo;ll respond within 1 business day. Calling is faster.
+                    No spam, no sales pressure.
                   </p>
                 </form>
               ) : (
                 <div className="flex min-h-[420px] flex-col justify-center">
                   <p className="eyebrow text-clay">Got it</p>
                   <h3 className="display mt-3 text-[34px] leading-[1.1] md:text-[44px]">
-                    Thanks. We&rsquo;ll text you back today.
+                    Thanks. We&rsquo;ll get back to you today.
                   </h3>
-                  <p className="mt-6 max-w-[44ch] text-[16px] text-ink/75">
-                    If you don&rsquo;t hear from us by tomorrow morning, please call{" "}
+                  <p className="mt-6 max-w-[44ch] text-[16px] text-ink">
+                    If you don&rsquo;t hear from us by tomorrow morning, please
+                    call{" "}
                     <a
-                      href="tel:+16197246464"
+                      href="tel:+18582414343"
                       className="link-underline text-clay"
                     >
-                      (619) 724-6464
+                      (858) 241-4343
                     </a>
-                    . Sometimes texts don&rsquo;t make it through and we hate to keep
-                    you waiting.
+                    .
                   </p>
                 </div>
               )}

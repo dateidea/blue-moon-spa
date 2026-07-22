@@ -2,10 +2,11 @@
 
 @theme {
   /* Coastal Clean — salt white / deep sea / sand */
-  --color-cream: #f5f3ee;
-  --color-cream-deep: #ebe8df;
-  --color-ink: #2e3a42;
-  --color-ink-soft: #475a65;
+  --color-cream: #f4efe6;
+  --color-cream-deep: #ece2d0;
+  --color-cream-soft: #faf6ee;
+  --color-ink: #2a1f18;
+  --color-ink-soft: #4a3a2c;
   --color-mid: #8c9aa2;
   --color-hairline: #dcd7cb;
   --color-clay: #d8c7a7;
@@ -152,6 +153,6 @@ footer .mt-16 { margin-top: 3rem !important; }
 
 /* Hero is now an image-with-overlay (full-bleed) */
 section#top { min-height: 100svh !important; padding-top: 0 !important; padding-bottom: 0 !important; display: flex !important; flex-direction: column; justify-content: flex-end; }
-section#top h1.display, main section#top h1.display { font-size: clamp(48px, 8vw, 112px) !important; line-height: 0.98 !important; color: var(--color-cream, #f5f3ee) !important; }
+section#top h1.display, main section#top h1.display { font-size: clamp(48px, 8vw, 112px) !important; line-height: 0.98 !important; color: var(--color-cream, #f4efe6) !important; }
 section#top .eyebrow { color: rgba(245, 243, 238, 0.8) !important; }
 section#top p { color: rgba(245, 243, 238, 0.85) !important; }

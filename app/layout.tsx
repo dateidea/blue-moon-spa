@@ -9,11 +9,11 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://navajo-spa.vercel.
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Happy Spa — An Honest Hour on El Cajon Boulevard, San Diego", template: "%s · Happy Spa" },
-  description: "Happy Spa at 6956 El Cajon Blvd, San Diego. Foot, hot stone, deep tissue, and combo work. Open every day, 9 AM to 10 PM. Combo: 30 min foot + 30 min body for $45. 10% off active duty and veterans. Walk-ins welcome. Call (619) 724-6464.",
-  keywords: ["Happy Spa","massage San Diego","El Cajon Blvd massage","foot massage San Diego","deep tissue massage San Diego","hot stone massage San Diego","combo massage El Cajon Blvd","couples massage San Diego","walk-in massage San Diego"],
-  openGraph: { title: "Happy Spa — An Honest Hour on El Cajon Boulevard, San Diego", description: "An honest hour for everywhere you carry it. Foot, hot stone, deep tissue, combo. Open every day, 9 AM to 10 PM at 6956 El Cajon Blvd, San Diego.", url: SITE_URL, siteName: "Happy Spa", locale: "en_US", type: "website", images: [{ url: "/images/og-01.jpg", width: 1200, height: 630, alt: "Happy Spa — quiet treatment room on El Cajon Boulevard" }] },
-  twitter: { card: "summary_large_image", title: "Happy Spa — An Honest Hour on El Cajon Boulevard, San Diego", description: "An honest hour for everywhere you carry it. Open every day, 9 AM to 10 PM.", images: ["/images/og-01.jpg"] },
+  title: { default: "ViVi Sunshine Spa — An Honest Hour on El Cajon Boulevard, San Diego", template: "%s · ViVi Sunshine Spa" },
+  description: "ViVi Sunshine Spa at 7151 El Cajon Blvd, Ste K, San Diego. Foot, hot stone, deep tissue, and combo work. Open every day, 9 AM to 11 PM. Combo: 30 min foot + 30 min body for $45. 10% off active duty and veterans. Walk-ins welcome. Call (858) 241-4343.",
+  keywords: ["ViVi Sunshine Spa","massage San Diego","El Cajon Blvd massage","foot massage San Diego","deep tissue massage San Diego","hot stone massage San Diego","combo massage El Cajon Blvd","couples massage San Diego","walk-in massage San Diego"],
+  openGraph: { title: "ViVi Sunshine Spa — An Honest Hour on El Cajon Boulevard, San Diego", description: "An honest hour for everywhere you carry it. Foot, hot stone, deep tissue, combo. Open every day, 9 AM to 11 PM at 7151 El Cajon Blvd, Ste K, San Diego.", url: SITE_URL, siteName: "ViVi Sunshine Spa", locale: "en_US", type: "website", images: [{ url: "/images/og-01.jpg", width: 1200, height: 630, alt: "ViVi Sunshine Spa — quiet treatment room on El Cajon Boulevard" }] },
+  twitter: { card: "summary_large_image", title: "ViVi Sunshine Spa — An Honest Hour on El Cajon Boulevard, San Diego", description: "An honest hour for everywhere you carry it. Open every day, 9 AM to 11 PM.", images: ["/images/og-01.jpg"] },
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
 };
@@ -26,12 +26,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org", "@type": "MassageTherapy", "@id": `${SITE_URL}/#business`,
-          name: "Happy Spa", image: `${SITE_URL}/images/hero-01.jpg`, url: SITE_URL,
-          telephone: "+16197246464", priceRange: "$$",
-          address: { "@type": "PostalAddress", streetAddress: "6956 El Cajon Blvd", addressLocality: "San Diego", addressRegion: "CA", postalCode: "92115", addressCountry: "US" },
+          name: "ViVi Sunshine Spa", image: `${SITE_URL}/images/hero-01.jpg`, url: SITE_URL,
+          telephone: "+18582414343", priceRange: "$$",
+          address: { "@type": "PostalAddress", streetAddress: "7151 El Cajon Blvd, Ste K", addressLocality: "San Diego", addressRegion: "CA", postalCode: "92115", addressCountry: "US" },
           geo: { "@type": "GeoCoordinates", latitude: 32.7689095, longitude: -117.0451089 },
-          openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], opens: "09:30", closes: "22:00" }],
-          paymentAccepted: "Cash, Apple Pay", hasMap: "https://maps.app.goo.gl/JMd4asWRLgScwdAv7",
+          openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], opens: "09:00", closes: "23:00" }],
+          paymentAccepted: "Cash, Apple Pay", hasMap: "https://maps.app.goo.gl/qpJz6FFKBvfe13Pk7",
         }) }} />
       </body>
     </html>

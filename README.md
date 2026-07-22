@@ -1,7 +1,7 @@
-# Blue Moon Spa — Marketing Site
+# ViVi Sunshine Spa — Marketing Site
 
-A high-converting marketing site for **Blue Moon Spa**, a small, Asian-owned
-massage studio at **7034 El Cajon Blvd, San Diego, CA 92115**.
+A high-converting marketing site for **ViVi Sunshine Spa**, a small, Asian-owned
+massage studio at **7151 El Cajon Blvd, Ste K, San Diego, CA 92115**.
 
 Live at: https://dateidea.github.io/blue-moon-spa/
 
@@ -54,7 +54,7 @@ GITHUB_PAGES=true npm run build      # static export to ./out for Pages
   Font import lives in `app/layout.tsx`.
 - **NAP, hours, phone** appear in `Sidebar.tsx`, `Nav.tsx`, `Hero.tsx`,
   `Footer.tsx`, `Booking.tsx`, FAQ, and the JSON-LD schema in `layout.tsx`.
-  Phone: `(626) 522-2888`.
+  Phone: `(858) 241-4343`.
 
 ---
 

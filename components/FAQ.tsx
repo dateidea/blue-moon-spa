@@ -10,26 +10,25 @@ const faqs: QA[] = [
     q: "Do I need an appointment, or can I walk in?",
     a: (
       <>
-        Both are fine. Walk-ins are honestly welcome — there&rsquo;s almost always
-        an opening within thirty minutes if you arrive before 10 PM. If you
-        want a specific time or therapist (Kiwi or Luna get requested by
-        name), please call ahead at{" "}
-        <a className="link-underline text-clay" href="tel:+16197246464">
-          (619) 724-6464
+        Both are fine. The phone is the fastest way to lock in a specific time
+        — call{" "}
+        <a className="link-underline text-clay" href="tel:+18582414343">
+          (858) 241-4343
         </a>
-        .
+        . If you want to walk in, please come before the last hour so we can
+        get you on the table before close.
       </>
     ),
   },
   {
-    q: "How much does it cost? Are there hidden fees?",
+    q: "How much does it cost?",
     a: (
       <>
-        The Custom Hour — Swedish, deep tissue, or both — is $79.99 with free
-        essential oil and free hot stone work included. Foot reflexology is
-        $59.99. That&rsquo;s the whole price list. No membership fees, no booking
-        fees. Tipping is appreciated but never required and never appears on
-        the bill.
+        Pricing is best handled at the door — call and we will quote you the
+        rate for the service and time you want. Sessions sixty minutes or
+        longer get twenty percent off, every visit. No membership fees, no
+        booking fees. Tipping is appreciated but never required and never
+        appears on the bill.
       </>
     ),
   },
@@ -37,31 +36,33 @@ const faqs: QA[] = [
     q: "What kind of pressure should I ask for?",
     a: (
       <>
-        If you&rsquo;re not sure, start with medium and tell us within the first ten
-        minutes if you want more or less. We&rsquo;d rather adjust five times than
-        leave you sore tomorrow. Deep work means slow-loaded forearms and
-        elbows on specific knots — not just &ldquo;harder pressure everywhere.&rdquo;
+        If you are not sure, start with medium and tell us within the first
+        ten minutes if you want more or less. We would rather adjust five
+        times than leave you sore tomorrow. Deep tissue means slow-loaded
+        forearms and elbows on specific knots — not just &ldquo;harder
+        pressure everywhere.&rdquo;
       </>
     ),
   },
   {
-    q: "Are you really open until 11 PM?",
+    q: "What hours are you open?",
     a: (
       <>
-        Yes — every day, including Sunday. The last appointment goes on the
-        table at 10 PM and the doors lock at 11 PM. If you&rsquo;re coming late
-        after a shift, please call so we can keep someone on for you.
+        Every day, nine in the morning until eleven at night. The doors lock
+        at 11 PM. If you are coming late after a shift, please call so we can
+        keep someone on for you.
       </>
     ),
   },
   {
-    q: "What is actually included in the $79.99?",
+    q: "What is the difference between Swedish and Thai?",
     a: (
       <>
-        A full sixty minutes on the table, your choice of Swedish, deep tissue,
-        or a combination of both. Free hot stones placed along the back and
-        shoulders. Free essential oil — lavender, eucalyptus, or unscented.
-        Hot tea before, hot tea after. Nothing extra to opt into.
+        Swedish is on the table, with warm oil — long, smooth strokes through
+        the back, neck, shoulders, and legs. Thai is on a low padded mat, in
+        loose clothing — guided stretching and palm pressure. Same hour. Very
+        different feeling. If you have never had Thai, it is worth trying
+        once.
       </>
     ),
   },
@@ -69,17 +70,19 @@ const faqs: QA[] = [
     q: "Where do I park?",
     a: (
       <>
-        Free parking lot directly in front of the studio at 6956 El Cajon Blvd</>
+        Free parking in the plaza at 7151 El Cajon Blvd, Suite K, between
+        71st and 73rd Street. We are a short drive from SDSU, on the 1 and
+        815 bus lines, and just east of the College Area.
+      </>
     ),
   },
   {
     q: "Is it OK during pregnancy?",
     a: (
       <>
-        Yes — please mention it when you call so we can put you with a
-        practitioner who works with prenatal clients. Side-lying with bolsters
-        from the second trimester onward, gentle pressure, no deep abdominal
-        work.
+        Please mention it when you call so we can put you with a practitioner
+        who works with prenatal clients and choose a service and position that
+        is right for the trimester you are in.
       </>
     ),
   },
@@ -87,9 +90,8 @@ const faqs: QA[] = [
     q: "What is your cancellation policy?",
     a: (
       <>
-        Same-day cancellations are fine. We don&rsquo;t charge for them. If you
-        no-show three times in a row we&rsquo;ll ask for a card on file for the
-        next booking — that&rsquo;s the only enforcement we have.
+        Same-day cancellations are fine — please call us as early as you can
+        so we can offer the slot to a walk-in.
       </>
     ),
   },
@@ -128,7 +130,7 @@ function Item({ qa, idx }: { qa: QA; idx: number }) {
         style={{ gridTemplateRows: open ? "1fr" : "0fr" }}
       >
         <div className="overflow-hidden">
-          <p className="max-w-[64ch] pb-9 text-[16px] leading-[1.8] text-ink/75">
+          <p className="max-w-[64ch] pb-9 text-[16px] leading-[1.8] text-ink">
             {qa.a}
           </p>
         </div>
@@ -156,7 +158,7 @@ export default function FAQ() {
             >
               The honest answers,
               <br />
-              <span className="italic font-light text-ink/55">
+              <span className="italic font-light text-ink/90">
                 before you have to ask.
               </span>
             </h2>
