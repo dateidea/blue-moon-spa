@@ -1,0 +1,95 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "feel-good-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5173", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/feel-good-spa"],
+      "port": 5173
+    },
+    {
+      "name": "blue-moon-massage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5180", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/blue-moon-massage"],
+      "port": 5180
+    },
+    {
+      "name": "navajo-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5181", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/navajo-spa"],
+      "port": 5181
+    },
+    {
+      "name": "red-panda-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5182", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/red-panda-spa"],
+      "port": 5182
+    },
+    {
+      "name": "happy-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5183", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/happy-spa"],
+      "port": 5183
+    },
+    {
+      "name": "oasis-8-massage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5184", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New"],
+      "port": 5184
+    },
+    {
+      "name": "lucky-dragon-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5185", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/lucky-dragon-spa"],
+      "port": 5185
+    },
+    {
+      "name": "gold-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5186", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/public"],
+      "port": 5186
+    },
+    {
+      "name": "bamboo-spa-massage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5187", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/bamboo-spa-massage"],
+      "port": 5187
+    },
+    {
+      "name": "peaceful-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5188", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/peaceful-spa"],
+      "port": 5188
+    },
+    {
+      "name": "diamond-spa-la-mesa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5189", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/diamond-spa-la-mesa"],
+      "port": 5189
+    },
+    {
+      "name": "unique-foot-massage-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5190", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/unique-foot-massage-spa"],
+      "port": 5190
+    },
+    {
+      "name": "kim-spa-massage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5191", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/kim-spa-massage"],
+      "port": 5191
+    },
+    {
+      "name": "sunshine-spa",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5192", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/sunshine-spa"],
+      "port": 5192
+    },
+    {
+      "name": "happy-land-massage",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "5193", "--directory", "/Users/qudsismacfolder/Brain/Money/source/Money Challenge/Money Challenge New/happy-land-massage"],
+      "port": 5193
+    }
+  ]
+}

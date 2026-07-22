@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://liberty-bodyworks-demo.vercel.app/sitemap.xml

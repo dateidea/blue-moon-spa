@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const isPagesBuild = process.env.GITHUB_PAGES === "true";
-const basePath = isPagesBuild ? "/zen-massage-sd" : "";
+const basePath = isPagesBuild ? "/gold-spa-sd" : "";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -20,6 +20,19 @@ const nextConfig = {
   },
   env: {
     NEXT_PUBLIC_BASE_PATH: basePath,
+  },
+  async redirects() {
+    if (isPagesBuild) return [];
+    return [
+      { source: "/", destination: "/gold-spa/", permanent: false },
+    ];
+  },
+  async rewrites() {
+    if (isPagesBuild) return [];
+    return [
+      { source: "/gold-spa", destination: "/gold-spa/index.html" },
+      { source: "/gold-spa/", destination: "/gold-spa/index.html" },
+    ];
   },
 };
 

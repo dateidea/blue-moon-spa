@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blue-moon-massage.vercel.app/sitemap.xml

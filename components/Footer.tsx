@@ -3,70 +3,40 @@ import Logo from "./Logo";
 export default function Footer() {
   return (
     <footer className="border-t border-hairline bg-cream">
-      <div className="mx-auto max-w-[1180px] px-6 py-20 md:px-10 md:py-24">
-        <div className="grid grid-cols-12 gap-x-6 gap-y-12">
+      <div className="mx-auto max-w-[1100px] px-6 py-20 md:px-10 md:py-24">
+        <div className="grid grid-cols-12 gap-x-6 gap-y-12 md:gap-x-12">
           <div className="col-span-12 md:col-span-5">
             <Logo />
-            <p className="mt-6 max-w-[36ch] text-[14px] leading-[1.8] text-ink/70">
-              A small, Asian-owned massage studio on El Cajon Boulevard. Open
-              every day, 9 AM to 11 PM. Walk-ins welcome. New clients get $10
-              off the first session.
-            </p>
-            <a
-              href="#booking"
-              className="btn-primary mt-10 inline-flex items-center rounded-none px-7 py-3 text-[12px] tracking-[0.22em] uppercase"
-            >
-              Book a session
-            </a>
+            <p className="mt-6 max-w-[36ch] text-[14px] leading-[1.85] text-ink-soft">A massage spa at 6957 El Cajon Blvd, San Diego. Open every day, 9 AM to 9 PM. Walk-ins welcome &mdash; call (619) 337-0166 for current pricing and to book.</p>
+            <a href="tel:+16193370166" className="btn-primary mt-8 inline-flex items-center rounded-full px-6 py-3 text-[11px] tracking-[0.16em] uppercase">Call (619) 337-0166</a>
           </div>
 
           <div className="col-span-6 md:col-span-2 md:col-start-7">
-            <p className="eyebrow">Visit</p>
-            <address className="mt-4 not-italic text-[14px] leading-[1.8] text-ink/85">
-              6956 El Cajon Blvd<br />
-              San Diego, CA 92115
-            </address>
-            <a
-              href="https://maps.app.goo.gl/5R3WdrN6BM31wU9x6"
-              target="_blank"
-              rel="noreferrer"
-              className="link-underline mt-4 inline-block text-[13px] text-clay"
-            >
-              Get directions →
-            </a>
+            <p className="index-badge">Visit</p>
+            <address className="mt-4 not-italic text-[14px] leading-[1.85] text-ink">6957 El Cajon Blvd<br />San Diego, CA 92115</address>
+            <a href="https://maps.app.goo.gl/JMd4asWRLgScwdAv7" target="_blank" rel="noreferrer" className="link-underline mt-4 inline-block text-[12px] uppercase tracking-[0.16em] text-mid">Get directions &rarr;</a>
           </div>
 
           <div className="col-span-6 md:col-span-2">
-            <p className="eyebrow">Hours</p>
-            <p className="mt-4 text-[14px] leading-[1.8] text-ink/85">
-              Mon – Sun
-              <br />
-              9:00 AM – 11:00 PM
-            </p>
+            <p className="index-badge">Hours</p>
+            <p className="mt-4 text-[14px] leading-[1.85] text-ink">Mon &ndash; Sun<br />9 AM &ndash; 9 PM</p>
           </div>
 
           <div className="col-span-12 md:col-span-3">
-            <p className="eyebrow">Reach us</p>
-            <a
-              href="tel:+16197246464"
-              className="display mt-3 block text-[32px] leading-none text-clay"
-            >
-              (619) 724-6464
-            </a>
-            <ul className="mt-6 flex flex-col gap-2 text-[13px] text-ink/70">
-              <li><a className="link-underline" href="#services">Services</a></li>
+            <p className="index-badge">Reach us</p>
+            <a href="tel:+16193370166" className="display mt-3 block text-[28px] leading-none text-ink">(619) 337-0166</a>
+            <ul className="mt-6 flex flex-col gap-2 text-[13px] text-ink-soft">
+              <li><a className="link-underline" href="#services">What we offer</a></li>
               <li><a className="link-underline" href="#about">About</a></li>
               <li><a className="link-underline" href="#faq">FAQ</a></li>
-              <li><a className="link-underline" href="#booking">Book</a></li>
+              <li><a className="link-underline" href="#booking">Get in touch</a></li>
             </ul>
           </div>
         </div>
 
-        <div className="mt-20 flex flex-col items-start justify-between gap-4 border-t border-hairline pt-8 text-[12px] text-ink/55 md:flex-row md:items-center">
-          <p>
-            © {new Date().getFullYear()} Happy Spa. All rights reserved.
-          </p>
-          <p>Asian-owned · Cash, card &amp; Apple Pay accepted</p>
+        <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-hairline pt-8 text-[11px] uppercase tracking-[0.16em] text-mid md:flex-row md:items-center">
+          <p>&copy; {new Date().getFullYear()} Gold Spa. All rights reserved.</p>
+          <p>Cash &amp; card &middot; Walk-ins welcome</p>
         </div>
       </div>
     </footer>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://atossa-medical-spa.vercel.app/sitemap.xml

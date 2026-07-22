@@ -1,174 +1,74 @@
 import Reveal from "./Reveal";
+import SectionRail from "./SectionRail";
 import { asset } from "@/lib/asset";
 
 type Service = {
-  num: string;
-  name: string;
-  description: string;
-  outcome: string;
-  duration: string;
-  price: string;
-  image: string;
-  alt: string;
+  num: string; name: string; description: string; image: string; alt: string;
 };
 
 const services: Service[] = [
-  {
-    num: "I",
-    name: "Full Body",
-    description:
-      "Sixty minutes head-to-toe — soothing strokes through the back, neck, shoulders, glutes, legs, and arms. Medium pressure unless you say otherwise. Warm oil, crisp white sheets, hot tea after. The default for a reason.",
-    outcome:
-      "For: the long week, the stiff neck, the bad chair at work.",
-    duration: "60 min",
-    price: "$50",
-    image: "/images/service-relax-01.jpg",
-    alt: "Cedar massage table dressed with neatly folded ivory linen, soft window light",
-  },
-  {
-    num: "II",
-    name: "Foot Massage",
-    description:
-      "Sixty minutes in a heated recliner — hot towel, warm oil, targeted pressure through the arch, the calf, and the reflex points along the heel and ear. Most clients close their eyes inside the first ten minutes.",
-    outcome: "For: nurses, servers, parents — anyone who has been on their feet.",
-    duration: "60 min",
-    price: "$50",
-    image: "/images/service-foot-04.jpg",
-    alt: "Hands working on the arch of a foot resting on a folded warm ivory towel, warm window light",
-  },
-  {
-    num: "III",
-    name: "Shiatsu",
-    description:
-      "Japanese pressure-point therapy through loose clothing. Slow, loaded body weight on specific points along the meridians. Asks more of the practitioner than oil massage does. Closer to assisted yoga than spa fluff.",
-    outcome:
-      "For: chronic knots, athletes, people who lift things for a living.",
-    duration: "60 min",
-    price: "$60",
-    image: "/images/service-deep-02.jpg",
-    alt: "Forearm pressure on the upper back, soft tungsten lighting, deep shadow across the lower frame",
-  },
-  {
-    num: "IV",
-    name: "Couples Room",
-    description:
-      "Two practitioners, one quiet room, side-by-side tables. Same hour, same warm towels, same cup of tea afterward. The couples room books up before the rest of the studio — calling ahead is the difference between a yes and a maybe.",
-    outcome: "For: anniversaries, post-flight, the rare night you both have free.",
-    duration: "60 min · per person",
-    price: "$95",
+  { num: "01", name: "Body massage",
+    description: "Full-body work on the table, head-to-toe. Pressure adjusted to what you ask for at the start of the session. Call to discuss what you are looking for and how long.",
+    image: "/images/about-01.jpg",
+    alt: "A folded ivory linen towel set out on a cedar bench beside a small ceramic bowl of warm oil — the studio set up for an hour" },
+  { num: "02", name: "Foot reflexology",
+    description: "Time in a heated recliner with a hot towel and warm oil. Targeted pressure through the arch, the calf, and the reflex points along the foot.",
     image: "/images/service-stone-03.jpg",
-    alt: "A quiet warm couples treatment room with two side-by-side tables dressed in ivory linen, ceramic dish of warm oil between them",
-  },
+    alt: "Smooth dark basalt stones arranged on folded ivory linen beside a small terracotta bowl of warm oil" },
+  { num: "03", name: "Hot stone",
+    description: "Smooth basalt stones, warmed in water, drawn through the back and shoulders. Heat does half the work for you. Often offered as part of a longer session.",
+    image: "/images/service-thai-04.jpg",
+    alt: "A warm oil bowl and a single dark river stone on a wooden stool beside the cedar massage table" },
+  { num: "04", name: "Couples",
+    description: "Side-by-side tables in a quiet room — for the rare night you both have free. Books up before the rest of the studio. Call ahead.",
+    image: "/images/og-01.jpg",
+    alt: "A quiet warm treatment room with cedar-panelled walls, sheer linen curtains, hanging plant, and ivory linen on the table" },
 ];
 
 export default function Services() {
   return (
-    <section
+    <SectionRail
       id="services"
-      className="bg-cream py-28 md:py-36"
-      aria-labelledby="services-heading"
+      eyebrow="What we offer"
+      index="01"
+      labelledBy="services-heading"
+      bg="bg-cream"
+      heading={
+        <h2 id="services-heading" className="display text-center text-[44px] leading-[1.02] md:text-[68px]">
+          A short menu.<br />
+          <span className="display-italic text-ink-soft">Call for current pricing</span><br />
+          and availability.
+        </h2>
+      }
+      rail={<>Pricing changes from time to time. Rather than list a number that might be a few dollars off, please call <a className="link-underline text-ink" href="tel:+16193370166">(619) 337-0166</a> &mdash; whoever picks up will quote you the current rate and book you in.</>}
     >
-      <div className="mx-auto max-w-[1180px] px-6 md:px-10">
-        <div className="grid grid-cols-12 gap-6 items-end">
-          <Reveal variant="fade" className="col-span-12 md:col-span-4">
-            <p className="eyebrow">The menu</p>
+      <div className="flex flex-col">
+        {services.map((s, i) => (
+          <Reveal key={s.num}>
+            <article className={`grid grid-cols-12 items-center gap-x-6 gap-y-10 border-t border-hairline py-20 md:gap-x-12 md:py-28 ${i % 2 === 1 ? "md:[direction:rtl]" : ""}`}>
+              <div className="col-span-12 md:col-span-6 md:[direction:ltr]">
+                <div role="img" aria-label={s.alt}
+                  className="img-placeholder relative aspect-[4/5] w-full overflow-hidden md:aspect-[3/4]"
+                  style={{ backgroundImage: `url(${asset(s.image)})`, backgroundSize: "cover", backgroundPosition: "center" }} />
+              </div>
+              <div className="col-span-12 md:col-span-6 md:[direction:ltr]">
+                <p className="index-badge text-eucalyptus">No. {s.num}</p>
+                <h3 className="display mt-5 text-[34px] leading-[1.05] md:text-[48px]">{s.name}</h3>
+                <p className="mt-6 measure-tight text-[17px] leading-[1.85] text-ink-soft">{s.description}</p>
+                <div className="mt-10 flex flex-wrap items-center gap-x-6 gap-y-2 text-[14px] text-ink">
+                  <a href="tel:+16193370166" className="link-underline tracking-[0.04em] text-eucalyptus-deep">Call to book this →</a>
+                </div>
+              </div>
+            </article>
           </Reveal>
-          <Reveal variant="curtain-up" className="col-span-12 md:col-span-8">
-            <h2
-              id="services-heading"
-              className="display text-[44px] leading-[1.04] md:text-[72px]"
-            >
-              A short menu.
-              <br />
-              <span className="italic font-light text-ink/55">
-                No memberships, no add-on traps,
-              </span>
-              <br />
-              no upsell at the door.
-            </h2>
-            <p className="mt-8 max-w-[58ch] text-[16px] leading-[1.75] text-ink/70">
-              Most people walk in for the same reason — something hurts,
-              sleep has been bad, or the week was too long. Below is the
-              entire menu. Walk-ins welcome until 10 PM. Calling ahead helps,
-              especially for the couples room.
-            </p>
-          </Reveal>
-        </div>
-
-        <div className="mt-24 flex flex-col">
-          {services.map((s, i) => {
-            const reverse = i % 2 === 1;
-            return (
-              <article
-                key={s.num}
-                className={`grid grid-cols-12 items-center gap-6 border-t border-hairline py-16 md:gap-12 md:py-24 ${
-                  reverse ? "md:[direction:rtl]" : ""
-                }`}
-              >
-                <Reveal
-                  variant="curtain"
-                  className="col-span-12 md:col-span-7 md:[direction:ltr] aspect-[4/5] w-full md:aspect-[3/4]"
-                >
-                  <div
-                    role="img"
-                    aria-label={s.alt}
-                    className="img-placeholder h-full w-full"
-                    style={{
-                      backgroundImage: `url(${asset(s.image)})`,
-                      backgroundSize: "cover",
-                      backgroundPosition: "center",
-                    }}
-                  />
-                </Reveal>
-
-                <Reveal
-                  variant="fade"
-                  delay={120}
-                  className="col-span-12 md:col-span-5 md:[direction:ltr]"
-                >
-                  <div className="flex items-baseline gap-6">
-                    <span className="display text-[20px] text-clay tracking-[0.18em]">
-                      {s.num}
-                    </span>
-                    <span className="h-px flex-1 bg-hairline" />
-                  </div>
-                  <h3 className="display mt-6 text-[40px] leading-[1.04] md:text-[64px]">
-                    {s.name}
-                  </h3>
-                  <p className="mt-6 max-w-[42ch] text-[16px] leading-[1.75] text-ink/75">
-                    {s.description}
-                  </p>
-                  <p className="mt-5 max-w-[42ch] text-[14px] italic text-ink/45">
-                    {s.outcome}
-                  </p>
-                  <div className="mt-8 flex flex-wrap items-baseline gap-x-6 gap-y-2 text-[14px] text-ink">
-                    <span className="display text-[28px] text-clay">
-                      {s.price}
-                    </span>
-                    <span className="text-ink/45">·</span>
-                    <span className="text-ink/65">{s.duration}</span>
-                    <a
-                      href="#booking"
-                      className="ml-auto link-underline tracking-[0.04em] text-clay"
-                    >
-                      Book this →
-                    </a>
-                  </div>
-                </Reveal>
-              </article>
-            );
-          })}
-        </div>
-
-        <Reveal variant="fade">
-          <p className="mt-16 max-w-[60ch] text-[13px] leading-[1.75] text-ink/55">
-            New clients get $10 off the first session — no code needed, just
-            mention it at the front desk. Add 30 minutes to any service for
-            $25. Cash, card, and Apple Pay all accepted. Tipping is appreciated
-            but never appears on the bill.
-          </p>
-        </Reveal>
+        ))}
       </div>
-    </section>
+
+      <Reveal>
+        <p className="mx-auto mt-20 max-w-[60ch] text-center text-[14px] leading-[1.85] text-mid">
+          Cash and card both accepted at the front desk. Tipping is appreciated but never required. Walk-ins are welcome &mdash; calling ahead helps us hold a room for you.
+        </p>
+      </Reveal>
+    </SectionRail>
   );
 }

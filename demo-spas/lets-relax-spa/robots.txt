@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lets-relax-spa-demo.vercel.app/sitemap.xml

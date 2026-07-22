@@ -1,29 +1,22 @@
 import Reveal from "./Reveal";
 
 const stats = [
-  { value: "$50", label: "One full hour, all-in pricing" },
-  { value: "9 — 11", label: "Open every day, last booking around 10 PM" },
-  { value: "4.2★", label: "Across 17 verified Google reviews" },
-  { value: "$10 off", label: "First-visit welcome — no code needed" },
+  { value: "Daily", label: "Open seven days a week" },
+  { value: "9:00–10", label: "9 AM to 9 PM, every day" },
+  { value: "Walk-in", label: "Or call ahead to reserve" },
+  { value: "Cash · Card", label: "Both accepted at the front desk" },
 ];
 
 export default function TrustBar() {
   return (
-    <section
-      aria-label="At a glance"
-      className="border-t border-b border-hairline bg-cream-deep"
-    >
-      <div className="mx-auto max-w-[1180px] px-6 py-14 md:px-10 md:py-20">
-        <Reveal variant="curtain">
-          <ul className="grid grid-cols-2 gap-y-10 md:grid-cols-4 md:gap-10">
+    <section aria-label="At a glance" className="border-y border-hairline bg-cream">
+      <div className="mx-auto max-w-[1100px] px-6 py-16 md:px-10 md:py-20">
+        <Reveal>
+          <ul className="grid grid-cols-2 gap-y-12 text-center md:grid-cols-4 md:gap-x-10">
             {stats.map((s) => (
-              <li key={s.label} className="flex flex-col">
-                <span className="display text-[40px] leading-none text-ink md:text-[56px]">
-                  {s.value}
-                </span>
-                <span className="mt-3 max-w-[20ch] text-[12px] tracking-[0.04em] leading-[1.6] text-ink/65">
-                  {s.label}
-                </span>
+              <li key={s.label} className="flex flex-col items-center gap-3">
+                <span className="display text-[36px] leading-none text-ink md:text-[44px]">{s.value}</span>
+                <span className="max-w-[24ch] text-[13px] leading-[1.6] text-mid">{s.label}</span>
               </li>
             ))}
           </ul>

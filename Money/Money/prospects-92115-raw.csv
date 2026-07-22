@@ -1,0 +1,344 @@
+score,category,tier,name,address,phone,website,rating,review_count,status,place_id
+80,garage door repair,Tier 1,San Diego Garage Doors And Gate Repair,"3820 Granada Ave, San Diego, CA 92104, USA",(858) 263-0068,,4.9,57,OPERATIONAL,ChIJbWubrfhV2YARTYEc0gj8nWI
+80,nail salon,Tier 2,Kelly's Nails & Spa (10%OFF + $10),"6921 El Cajon Blvd, San Diego, CA 92115, USA",(619) 718-1851,,4.7,57,OPERATIONAL,ChIJGfItQQpX2YARB-cYO3bedzk
+80,barber shop,Tier 2,The Blak Mrkt Studio,"7281 El Cajon Blvd, San Diego, CA 92115, USA",(619) 807-7632,,4.5,49,OPERATIONAL,ChIJMzfUeeNX2YARyemrR8fe9uQ
+80,tire shop,Tier 2,Tire Connection,"5240 El Cajon Blvd, San Diego, CA 92115, USA",(619) 582-7022,,4.7,42,OPERATIONAL,ChIJiz4OHCFU2YARTG9qcqxYF1o
+80,nail salon,Tier 2,Kim H Nails,"6519 University Ave, San Diego, CA 92115, USA",(858) 883-1093,,5,39,OPERATIONAL,ChIJOc156HRX2YAR2QDgDCpA_EM
+80,barber shop,Tier 2,BCJXCUTZ,"5410 El Cajon Blvd, San Diego, CA 92115, USA",,,4.9,37,OPERATIONAL,ChIJ_at2d91T2YAR5FpAhahtb00
+80,tire shop,Tier 2,Elite Tire Shop,"6215 University Ave B STE B, San Diego, CA 92115, USA",(619) 779-4946,,5,34,OPERATIONAL,ChIJ6d0WoUpX2YAR3r3-ppUEBjs
+80,auto repair,Tier 2,Baz Auto Repair Service,"6970 El Cajon Blvd, San Diego, CA 92115, USA",(619) 469-1827,,4.9,32,OPERATIONAL,ChIJ474NgKxX2YARJXVfAJFv-Ak
+80,dry cleaner,Tier 2,Royal Touch Cleaners,"4242 Camino Del Rio N # 22, San Diego, CA 92108, USA",(619) 624-0989,,4.5,32,OPERATIONAL,ChIJ6apr9rdV2YARjx2JIq9Z404
+80,tax preparation,Tier 2,Pelayo Tax Service,"4444 El Cajon Blvd STE.5, San Diego, CA 92115, USA",(619) 795-3923,,4.5,31,OPERATIONAL,ChIJz3-XNDlU2YAREfSjIyg1zTc
+80,tax preparation,Tier 2,"TX, INC.","5431 El Cajon Blvd B, San Diego, CA 92115, USA",(619) 582-4578,,4.9,31,OPERATIONAL,ChIJh1tVMZ5W2YARwzteXTv4XT4
+80,tire shop,Tier 2,Khloe’s tire shop,"4875 El Cajon Blvd, San Diego, CA 92115, USA",(619) 617-5813,,4.3,28,OPERATIONAL,ChIJhTeQFCNU2YARmpTSd6fqxmw
+80,HVAC repair,Tier 1,San Diego HVAC & Airduct Cleaning,"4481-91 El Cajon Blvd, San Diego, CA 92115, USA",(619) 272-9793,,5,18,OPERATIONAL,ChIJGalg68Be2YARMe7GRoFbuSY
+80,auto repair,Tier 2,E-Z Auto,"6808 University Ave, San Diego, CA 92115, USA",(619) 229-2022,,4.9,18,OPERATIONAL,ChIJ3wByGcRW2YARUd4bG1M8xhg
+80,tax preparation,Tier 2,Leroy Chen Tax Service,"5332 Lea St, San Diego, CA 92105, USA",(831) 917-8168,,4.6,18,OPERATIONAL,ChIJuRt9XX1V2YARDfSa9jEbprg
+80,roofing contractor,Tier 1,San Diego Roofing pro,"4575 El Cajon Blvd, San Diego, CA 92115, USA",(858) 275-7811,,4.9,16,OPERATIONAL,ChIJnVQKEjxU2YARPRcAx4_BrTA
+80,garage door repair,Tier 1,Reliable Garage Door Repair of San Diego,"6785 Imperial Ave, San Diego, CA 92114, USA",(619) 810-5772,,5,13,OPERATIONAL,ChIJqYz3_RYTK4cR_Nqws-mOIxo
+80,appliance repair,Tier 1,One Appliance Repair Center,"715 Woodrow Ave, San Diego, CA 92114, USA",(619) 914-5779,,5,12,OPERATIONAL,ChIJbxJDtB9R2YARn8FcxLb81Gg
+80,HVAC repair,Tier 1,Universal HVAC Contractors San Diego,"3635 College Ave, San Diego, CA 92115, USA",(619) 612-4382,,5,10,OPERATIONAL,ChIJv1P416tX2YARTHd61JO9f1Q
+80,window cleaning,Tier 1,Wishy Washy Window Washing,"6489 Bell Bluff Ave, San Diego, CA 92119, USA",(619) 508-2168,,5,9,OPERATIONAL,ChIJTdEnw9nc1QARhS_YocmBUT4
+80,auto repair,Tier 2,G and G Auto Service,"7073 El Cajon Blvd, San Diego, CA 92115, USA",(619) 465-5444,,5,8,OPERATIONAL,ChIJPRvivGRX2YAREQ4EbTIq-P0
+80,tax preparation,Tier 2,"SMART Solutions Financial & Insurance Services, Inc.","4644 El Cajon Blvd Office / Work Area, San Diego, CA 92115, USA",(619) 356-4121,,4.4,7,OPERATIONAL,ChIJX6aieTxU2YARrEVfWHvil1M
+80,roofing contractor,Tier 1,TruePeak Roofing,"6372 El Cajon Blvd, San Diego, CA 92115, USA",(619) 935-6149,,4.3,6,OPERATIONAL,ChIJuaT6qPlY2YAR2itICzIb00Q
+80,HVAC repair,Tier 1,KOL HVAC Repair,"Lake Murray Blvd, San Diego, CA 92119, USA",(619) 277-7461,,5,4,OPERATIONAL,ChIJIaVgacNX2YARWhTjctOkfUU
+80,tile installation,Tier 1,Joe’s Tile Pros,"7700 Parkway Dr, La Mesa, CA 91942, USA",(619) 248-5107,,5,4,OPERATIONAL,ChIJj0XI4a9X2YAR9-8GM76urCc
+80,tile installation,Tier 1,S C Tile Co,"606 S Marshall Ave, El Cajon, CA 92020, USA",(619) 669-1575,,5,4,OPERATIONAL,ChIJtbpfnr1c2YARPMQb0s7ohn8
+80,tire shop,Tier 2,El Cajon Tire Shop,"7269 El Cajon Blvd, San Diego, CA 92115, USA",(619) 697-0360,,5,4,OPERATIONAL,ChIJO0SGm-ZW2YARWSD2oZfcNsg
+80,tile installation,Tier 1,Figueroa Tile,"4216 Polk Ave, San Diego, CA 92105, USA",(619) 359-7547,,5,3,OPERATIONAL,ChIJLzFWN_hILC0RV9VBVIMxez4
+80,electrician,Tier 1,Zeus Electric & GC Inc,"5525 El Cajon Blvd, San Diego, CA 92115, USA",(619) 665-3003,,5,3,OPERATIONAL,ChIJUycB0o1X2YARzpJuOEJgWw0
+80,tax preparation,Tier 2,NGUYEN'S TAX AND ASSOCAITES,"5114 El Cajon Blvd Unit 1, San Diego, CA 92115, USA",(619) 849-0422,,5,3,OPERATIONAL,ChIJr3y10D1V2YARuL0sp_IPeuA
+80,house painter,Tier 1,San Diego Patch and Paint,"6161 El Cajon Blvd ste 922, San Diego, CA 92115, USA",(619) 929-4199,,5,2,OPERATIONAL,ChIJ79l3v9dX2YARCj_lUvbldnQ
+80,tax preparation,Tier 2,G R Bookkeeping & Tax Services,"6255 University Ave, San Diego, CA 92115, USA",(619) 644-5710,,5,2,OPERATIONAL,ChIJj73XQ9lW2YART58TuwxNMy8
+80,tax preparation,Tier 2,Hoffner Associates,"6150 El Cajon Blvd e, San Diego, CA 92115, USA",(619) 265-8208,,4.5,2,OPERATIONAL,ChIJvxemL5dW2YARCxrttAoFQWk
+80,landscaping,Tier 1,Chalma landscaping,"3825 Van Dyke Ave, San Diego, CA 92105, USA",(619) 520-0086,,5,1,OPERATIONAL,ChIJnSQk4OFV2YARDkKI8etMvD0
+80,landscaping,Tier 1,Diego Landscaping,"3819 47th St, San Diego, CA 92105, USA",,,5,1,OPERATIONAL,ChIJs-eRERdU2YARPYKZFIU6ZS0
+80,pool service,Tier 1,Blue Water Pool Service & More,"2864 Ridge View Dr, San Diego, CA 92105, USA",(619) 992-3896,,5,1,OPERATIONAL,ChIJycF8BgZU2YARg0-3FqQlOGc
+80,auto repair,Tier 2,Adams Auto Repair & Collison Center INC,"4961 University Ave, San Diego, CA 92105, USA",(619) 310-6669,,5,1,OPERATIONAL,ChIJfRIhXz1V2YARe56yjI99iNI
+70,dry cleaner,Tier 2,Fairlane Cleaners,"6302 El Cajon Blvd #4, San Diego, CA 92115, USA",(619) 286-1820,,4,48,OPERATIONAL,ChIJ_UDPS5FW2YAREsbF04nwwmU
+70,nail salon,Tier 2,ProfessioNail & Spa,"COLLEGE GROVE, 6348 College Grove Way UNIT 102, San Diego, CA 92115, USA",(619) 582-4948,,3.9,34,OPERATIONAL,ChIJvbaJJJBR2YARxZpSrP9Y2Fk
+70,dry cleaner,Tier 2,VIP Cleaners,"5650 Lake Murray Blvd, La Mesa, CA 91942, USA",(619) 460-7522,,3.5,28,OPERATIONAL,ChIJI2O49AFX2YARqfUZPeMt8uo
+70,dry cleaner,Tier 2,Select Cleaners & Laundry,"4666 University Ave #68, San Diego, CA 92105, USA",(619) 282-7438,,3.9,18,OPERATIONAL,ChIJ825RsxdU2YARTpcCzeo5XrU
+70,dry cleaner,Tier 2,Dry Clean 4 Less,"7424 Jackson Dr # 4, San Diego, CA 92119, USA",(619) 825-8630,,4.1,17,OPERATIONAL,ChIJwQsqvEdW2YARMHXuPVFQkCk
+70,tax preparation,Tier 2,Nam Nguyen Tax Services,"4712 El Cajon Blvd B, San Diego, CA 92115, USA",(619) 280-7276,,4.1,13,OPERATIONAL,ChIJY8NTnzxU2YAR9EfBPZ1oRyk
+70,locksmith,Tier 1,El Cheapo Locksmith,"6161 El Cajon Blvd, San Diego, CA 92115, USA",(619) 377-9091,,3.5,8,OPERATIONAL,ChIJ7-Hdkp1X2YARvtD-rmV0GUQ
+70,dry cleaner,Tier 2,Fairlane Cleaners,"7415 Jackson Dr, San Diego, CA 92119, USA",(619) 462-5820,,4,7,OPERATIONAL,ChIJc4Ls4EdW2YARDq0La2yzNqc
+70,tax preparation,Tier 2,Steven & Associates,"4555 El Cajon Blvd # C, San Diego, CA 92115, USA",(619) 624-9820,,4.2,5,OPERATIONAL,ChIJCenTDzxU2YAR0QOULn3fuuU
+60,moving company,Tier 1,"Rhino Moving, LLC - Movers San Diego","4561 Mission Gorge Pl, San Diego, CA 92120, USA",(855) 887-4466,,4.3,121,OPERATIONAL,ChIJf5iAusBV2YAR2rXq7U-HFPM
+60,nail salon,Tier 2,Cloud Nail Spa San Diego,"6375 El Cajon Blvd, San Diego, CA 92115, USA",(619) 583-6666,,4.3,121,OPERATIONAL,ChIJVyi-2lhX2YARujFzRXrsy68
+60,tax preparation,Tier 2,Mobile City Tax Services and Wireless,"5296 University Ave Suite F, San Diego, CA 92105, USA",(619) 988-6836,,5,120,OPERATIONAL,ChIJtwT97JdV2YARmPuqBO8Bwf8
+60,tire shop,Tier 2,Los Reyes tire shop,"7267 El Cajon Blvd, San Diego, CA 92115, USA",(619) 697-0360,,4.4,116,OPERATIONAL,ChIJFywifuZW2YARgpw-49C0BCI
+60,roofing contractor,Tier 1,Colin's Emergency Roofers,"6922 Mission Gorge Rd #9030, San Diego, CA 92120, USA",(858) 923-4199,,4.8,112,OPERATIONAL,ChIJF9U-5mRV2YARnYzw4lOSn0o
+60,auto repair,Tier 2,A & R Auto Repair,"4189 Rolando Blvd unit b, San Diego, CA 92115, USA",(619) 255-5720,,4.8,92,OPERATIONAL,ChIJR_rxzbhW2YAR7lvJH_X2m90
+60,nail salon,Tier 2,Nee's Hair & Nails,"5435 El Cajon Blvd, San Diego, CA 92115, USA",(619) 287-2005,,4.5,79,OPERATIONAL,ChIJMfhhSZ5W2YARCcfzX5fIxJg
+60,dry cleaner,Tier 2,Lemon Grove Dry Cleaners,"6935 Federal Blvd, Lemon Grove, CA 91945, USA",(619) 463-4555,,4.3,76,OPERATIONAL,ChIJDVqpx8xW2YARzfCqyGon31E
+60,nail salon,Tier 2,Nails Expression,"6686 El Cajon Blvd # C, San Diego, CA 92115, USA",(619) 464-1978,,4.4,71,OPERATIONAL,ChIJC20MHu1W2YARsShT8aRFeGU
+60,garage door repair,Tier 1,La Mesa Garage Door And Gate Repair,"7389 Jackson Dr, San Diego, CA 92119, USA",(619) 598-0477,,5,70,OPERATIONAL,ChIJy3L6_3tX2YAR99oB-4JnDMk
+60,nail salon,Tier 2,Wilder Nails & Spa,"6784 El Cajon Blvd Suite E1, San Diego, CA 92115, USA",(619) 212-5495,,4.6,70,OPERATIONAL,ChIJlcmBqVpX2YARLzCCy_jRS8s
+60,barber shop,Tier 2,Star Barber,"6686 El Cajon Blvd ste b, San Diego, CA 92115, USA",(619) 469-1496,,4.4,62,OPERATIONAL,ChIJofJPZkhX2YARwSTMh26SFSI
+60,dry cleaner,Tier 2,Lena's Alterations & Dry Cleaning,"7763 University Ave, La Mesa, CA 91942, USA",(619) 698-1325,,4.8,62,OPERATIONAL,ChIJg-SGwyBX2YARIFFmwGMxHrg
+60,locksmith,Tier 1,Key Maker Locksmith,"8900 Grossmont Blvd # 7, La Mesa, CA 91941, USA",(619) 500-0100,,5,60,OPERATIONAL,ChIJq1w0oE1X2YAR3NftkS-JD88
+60,nail salon,Tier 2,Vina Nails Spa,"6114 University Ave, San Diego, CA 92115, USA",(619) 286-1998,,4.3,60,OPERATIONAL,ChIJL_Oan7xW2YAReNUD70dJn9k
+50,tire shop,Tier 2,Tire World,"4750 El Cajon Blvd, San Diego, CA 92115, USA",(619) 583-6060,,4,89,OPERATIONAL,ChIJMRKKsDxU2YAR_mNjHP3SNMg
+50,dry cleaner,Tier 2,Hy Cleaners,"4441 El Cajon Blvd #4311, San Diego, CA 92115, USA",(619) 283-6167,,4,80,OPERATIONAL,ChIJpxs0yT5U2YARp9kdzTO04Y4
+50,dry cleaner,Tier 2,Cascade Cleaners,"6145 El Cajon Blvd # K, San Diego, CA 92115, USA",(619) 583-4883,,3.4,27,OPERATIONAL,ChIJ5ep_C5dW2YARnlHYa7eAStI
+50,tax preparation,Tier 2,Thanh Nguyen Income Tax,"4776 El Cajon Blvd #201 #202, San Diego, CA 92115, USA",(619) 229-1929,,2.3,20,OPERATIONAL,ChIJgQIJRiNU2YARAGWvJX0F3FI
+50,roofing contractor,Tier 1,San Diego Roof Repair and ADU's,"404 Euclid Ave, San Diego, CA 92114, USA",(760) 209-5032,,,0,OPERATIONAL,ChIJq1QhdwFR2YARxYAeLUV9sp8
+30,locksmith,Tier 1,Lock Techs,"6580 El Cajon Blvd Ste c, San Diego, CA 92115, USA",(619) 737-2266,,4.6,299,OPERATIONAL,ChIJ6aAKbrZT2YARsV82u7Opmhw
+30,barber shop,Tier 2,Sam’s Barbershop,"5871 University Ave Ste 332, San Diego, CA 92115, USA",(619) 229-1655,,4.3,219,OPERATIONAL,ChIJxYdD56RW2YAR7mLoTdkusIA
+30,dry cleaner,Tier 2,Tam's Alteration & Dry Cleaning,"8207 La Mesa Blvd, La Mesa, CA 91942, USA",(619) 303-3367,,4.8,209,OPERATIONAL,ChIJkZLJSCNX2YARx4b7W33LBdI
+30,auto repair,Tier 2,Henry's Auto Repair,"4881 University Ave, San Diego, CA 92105, USA",(619) 563-8788,,4.6,199,OPERATIONAL,ChIJAWs_ffRV2YARsYImYgDrbBw
+30,tax preparation,Tier 2,"San Diego, CPA A Professional Tax & Accountancy Corporation","7317 El Cajon Blvd, La Mesa, CA 91942, USA",(858) 800-3888,http://www.sandiegocpas.com/,4.8,59,OPERATIONAL,ChIJo0XfPLdV2YARUyuoDAUCUfc
+30,personal trainer,Tier 2,Effective Fitness,"5611 Lake Murray Blvd # 102, La Mesa, CA 91942, USA",(619) 784-6715,http://www.effectiveforlife.com/,5,59,OPERATIONAL,ChIJFV5ABgJX2YARaxjFLhI6dJU
+30,moving company,Tier 1,TRUST Moving and Storage,"6850 Mission Gorge Rd, San Diego, CA 92120, USA",(619) 861-9191,http://trustmovingandstorageca.com/,4.9,57,OPERATIONAL,ChIJY9TKzBpV2YAR0Zn1jGOXRxI
+30,electrician,Tier 1,Lightning Electric,"6161 El Cajon Blvd b417, San Diego, CA 92115, USA",(619) 403-1793,http://lightningfastelectric.us/,5,57,OPERATIONAL,ChIJBx79H5dW2YARGHNS_udrry8
+30,barber shop,Tier 2,Royal Kutz,"6790 University Ave, San Diego, CA 92115, USA",(619) 542-9696,http://royalkutz.com/,4.9,56,OPERATIONAL,ChIJi5h7psZW2YARqFDv0sN25JE
+30,roofing contractor,Tier 1,Masterlyne Corporation,"7364 El Cajon Blvd, San Diego, CA 92115, USA",(619) 698-4023,https://masterlyne.com/,5,54,OPERATIONAL,ChIJp2hdPQhX2YAR-T6e7AVcXD8
+30,appliance repair,Tier 1,Bestway Appliance Repair,"4011 Louisiana St, San Diego, CA 92104, USA",(619) 724-4288,http://bestway-appliancerepair.com/san-diego,4.9,51,OPERATIONAL,ChIJ2RJMymVV2YARUyhaGQops_Y
+30,wedding photographer,Tier 2,147Photos,"4767 Jessie Ave UNIT D, La Mesa, CA 91942, USA",(858) 634-9920,http://147photos.com/,5,50,OPERATIONAL,ChIJF0c9ONFX2YARikT4BNazVo8
+30,personal trainer,Tier 2,KettleFlex Fitness,"6210 El Cajon Blvd, San Diego, CA 92115, USA",(619) 438-0494,https://www.kettleflex.com/,5,49,OPERATIONAL,ChIJk4MmSpFW2YARrjPWDoED0sg
+30,roofing contractor,Tier 1,Exclusively Roofing Inc.,"4013 Texas St UNIT 4, San Diego, CA 92104, USA",(619) 663-1261,https://www.exclusivelyroofinginc.com/,5,46,OPERATIONAL,ChIJQTODSFVT2YARFWdhIQiqIKo
+30,tile installation,Tier 1,Kwest Flooring Services,"7088 El Cajon Blvd, San Diego, CA 92115, USA",(619) 647-7432,http://www.sdlaminateandcarpet.com/,4.8,46,OPERATIONAL,ChIJNwKlQ-9W2YARN-QMcpQQIIk
+30,appliance repair,Tier 1,Appliance and More,"5800 Lake Murray Blvd UNIT 21, La Mesa, CA 91942, USA",(619) 750-2176,https://www.appliancenmore.com/,4.6,45,OPERATIONAL,ChIJMVqcQvBW2YARP0_H0tpG4qQ
+30,pool service,Tier 1,PoolLogic Pool and Spa Service,"1223 Cleveland Ave #200-301, San Diego, CA 92103, USA",(619) 502-9056,https://poollogicsd.com/?utm_source=google_my_business&utm_medium=organic&utm_campaign=gbp_PoolLogicSD,4.9,44,OPERATIONAL,ChIJI4PkKHBX2YARE1lV4m5FXG0
+30,garage door repair,Tier 1,Portal Garage Door And Gate Repair,"6734 Solita Ave, San Diego, CA 92115, USA",(858) 492-0482,http://portalgd.com/,4.7,43,OPERATIONAL,ChIJ7-AUe8xX2YARrjNXBLFGK7Q
+30,roofing contractor,Tier 1,"San Diego Roofing, INC.","2811 Adams Ave, San Diego, CA 92116, USA",(619) 280-1000,http://www.sandiegoroofing.com/,4.5,42,OPERATIONAL,ChIJ-UZd9P1U2YAROsa56-bYZ20
+30,HVAC repair,Tier 1,Fabulous Homes Heating & Air,"7290 Mohawk St Lot A, San Diego, CA 92115, USA",(619) 889-5834,https://www.fabuloushomesheatingandair.com/,5,41,OPERATIONAL,ChIJB5gDhMRX2YAR4_ZZh6ZoILA
+30,appliance repair,Tier 1,"Multi Appliance Repair - San Diego, CA","6161 Fairmount Ave unit 180, San Diego, CA 92120, USA",(760) 496-3031,http://multiappliances.com/,4.7,41,OPERATIONAL,ChIJZzQAAM9V2YARXUrPgf7DMu4
+30,wedding photographer,Tier 2,Chris Wojdak Photography,"529 Market St, San Diego, CA 92101, USA",(619) 500-4270,http://www.chriswojdak.com/,5,40,OPERATIONAL,ChIJgeOBlvNV2YARz01DVwe0-e4
+30,carpet cleaning,Tier 1,Finest San Diego Carpet Cleaning,"6505 Mission Gorge Rd Suite 131, San Diego, CA 92120, USA",(619) 330-3433,https://carpetcleaningsandiego.city/,4.8,39,OPERATIONAL,ChIJX5GwjuZV2YARUS_iE1G6ng4
+30,electrician,Tier 1,Interwest Electric,"5837 Mission Gorge Rd STE #D, San Diego, CA 92120, USA",(619) 604-9120,http://www.interwestelectric.com/,4.9,39,OPERATIONAL,ChIJvzcxvyZX2YARKAYFK0kcM4U
+30,carpet cleaning,Tier 1,Advanced Carpet Cleaners,"4276 54th Pl STE 270, San Diego, CA 92115, USA",(619) 330-0042,https://carpetcleaningsandiego.site/,4.7,38,OPERATIONAL,ChIJ78AWzDVX2YARocWRwyoEVV0
+30,carpet cleaning,Tier 1,C.M. Carpet Cleaning,"7879 El Cajon Blvd Suite 206, La Mesa, CA 91942, USA",(619) 853-3336,https://carpetcleanerslamesa.com/,4.8,38,OPERATIONAL,ChIJcdY2Xj9X2YAR4qgZTbvSxHA
+30,barber shop,Tier 2,ESSNTL Barbers,"5969 El Cajon Blvd, San Diego, CA 92115, USA",(619) 539-7569,https://www.essntlbarbers.com/,5,36,OPERATIONAL,ChIJaf2rmUFX2YARsXlUdDldcT8
+30,personal trainer,Tier 2,Earned Fitness SD,"6690 Mission Gorge Rd Suite O, San Diego, CA 92120, USA",(858) 302-2069,http://www.earnedfitnesssd.com/,5,36,OPERATIONAL,ChIJ67aafftV2YAR8Cy7yRXatA4
+30,landscaping,Tier 1,Dave Suda Landscape,"4385 Twain Ave, San Diego, CA 92120, USA",(619) 229-1316,https://www.davesudalandscape.com/,5,35,OPERATIONAL,ChIJeRSmAsdV2YARcZ0DwmdNf48
+30,tile installation,Tier 1,All about Flooring,"4046 44th St, San Diego, CA 92105, USA",(619) 882-8832,https://www.allaboutflooringinsd.com/,5,35,OPERATIONAL,ChIJRYbG7edV2YARQm-N46wV6U0
+30,wedding photographer,Tier 2,Justice Photography,"4252 Cleveland Ave, San Diego, CA 92103, USA",(760) 936-7854,https://www.justicephoto.com/,5,35,OPERATIONAL,ChIJvd2691oL3IARVCqYekdBYmg
+30,landscaping,Tier 1,Nature's Elements Landscaping,"7541 Mission Gorge Rd, San Diego, CA 92120, USA",(619) 312-3418,https://www.natureselementslandscaping.com/,4.8,34,OPERATIONAL,ChIJxc5SPV9U2YARlIguRjzLeM8
+30,personal trainer,Tier 2,MVMNT Studio,"5702 El Cajon Blvd, San Diego, CA 92115, USA",(860) 378-4608,https://mvmntstudio.com/,5,34,OPERATIONAL,ChIJ__8TZjpU2YARv8m41hqwFf4
+30,window cleaning,Tier 1,619 Window Cleaning,"2064 Ventana Way, El Cajon, CA 92020, USA",(619) 977-7010,http://619windowcleaning.com/,5,33,OPERATIONAL,ChIJgaGP0Pbpe4oRT8-uboCC4Gs
+30,pool service,Tier 1,GL Pools - San Diego Pool Service,"7485 Ronson Rd, San Diego, CA 92111, USA",(619) 762-4744,https://glpools.com/pool-service-san-diego/,4.9,33,OPERATIONAL,ChIJFbmru8v_24ARWlF85HLf86k
+30,pool service,Tier 1,Diamond Pool Service,"10744 Rockvill St, Santee, CA 92071, USA",(619) 929-0309,http://www.poolofdiamonds.com/,5,33,OPERATIONAL,ChIJ4_pzf0Fkvg8Rhy_6W2xwbyc
+30,house painter,Tier 1,San Diego Custom Painting,"9413 Cape Cod Ct, Spring Valley, CA 91977, USA",(619) 464-4030,https://sdcustompainting.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp,5,32,OPERATIONAL,ChIJ3U_2EUhJ2YAR7Eqto_QsZk8
+30,pressure washing,Tier 1,Supreme Power Wash,"9920 Pacific Heights Blvd Suite 150 5105, San Diego, CA 92121, USA",(619) 374-9016,https://www.powerwashandmore.com/,4.9,31,OPERATIONAL,ChIJee6fReRj_oQRdAaH6jQHlYs
+30,landscaping,Tier 1,Aldape G Landscaping Inc,"6435 Tooley St, San Diego, CA 92114, USA",(619) 646-1046,https://aldapeglandscaping.com/,5,30,OPERATIONAL,ChIJww0T18VV2YARLlAbpws1zTc
+30,window cleaning,Tier 1,Professional Window Cleaning SD,"300 Thornton Dr, El Cajon, CA 92021, USA",(619) 930-2539,https://pwc-sd.com/,5,30,OPERATIONAL,ChIJqdwFD1rehmkRa1H4zhWy1a0
+30,house painter,Tier 1,Innova Pro Painting,"391 Los Soneto Dr, San Diego, CA 92114, USA",(619) 362-6422,https://instagram.com/innova_pro_painting?igshid=OGQ5ZDc2ODk2ZA==,5,30,OPERATIONAL,ChIJvxq-ATZR2YAROqxg3UNJIms
+30,pest control,Tier 1,JBC Termite & Pest Control,"4656 34th St #3, San Diego, CA 92116, USA",(714) 878-1916,https://jbctermitepestcontrolincca.com/,5,29,OPERATIONAL,ChIJu2D3CCVV2YARe8Rirq7h2_g
+30,auto repair,Tier 2,Huy's Auto Repair,"4548 El Cajon Blvd, San Diego, CA 92115, USA",(619) 640-3410,https://findaloco.com/directory/huys-auto-repair/,4.9,29,OPERATIONAL,ChIJETG8BzxU2YARJh1z87dzxJM
+30,window cleaning,Tier 1,Taylor Made Window Cleaning,"2848 Glen Canyon Cir, Spring Valley, CA 91977, USA",(619) 981-0169,https://www.taylormadewindowcleaning.com/,5,28,OPERATIONAL,ChIJP5jNKO5U2YAReo_p4-0J1vA
+30,carpet cleaning,Tier 1,American Pride Carpet Cleaners,"3770 Altadena Ave. #500, San Diego, CA 92105, USA",(619) 344-0005,https://superiorcarpets.homes/,4.9,28,OPERATIONAL,ChIJxe_lDydV2YARzuHLWcav7Hk
+30,lash studio,Tier 2,Beauty Bar and Lashes,"3633 Camino del Rio S, San Diego, CA 92116, USA",(619) 902-0494,https://sandiegobeautybarlashes.com/contact,4.9,28,OPERATIONAL,ChIJ-W4AFpNW2YARBKtCDT8egQA
+30,house painter,Tier 1,High-Point Painting,"7320 Colony Rd, La Mesa, CA 91942, USA",(619) 250-9743,http://www.highpointpaintingsd.com/,5,27,OPERATIONAL,ChIJJQTG4O1X2YARLcy9zrndAjA
+30,house painter,Tier 1,American Painting | San Diego House Painting,"3625 Budd St, San Diego, CA 92111, USA",(858) 255-4565,https://sandiegohousepainting.com/,4.9,27,OPERATIONAL,ChIJGcrP9eX_24ARfyO6oQYzXVs
+30,lash studio,Tier 2,The Beauty Trap,"8055 La Mesa Blvd #101, La Mesa, CA 91942, USA",(619) 245-3997,https://sdbeautytrap.com/,5,27,OPERATIONAL,ChIJ__9DnSNX2YARVl35BzTRkdw
+30,dry cleaner,Tier 2,Martinizing,"8680 Navajo Rd, San Diego, CA 92119, USA",(619) 466-6584,https://martinizing.com/san-diego-navajo-rd,4.3,26,OPERATIONAL,ChIJQ9sMFr1X2YARsFUPlZQrKys
+30,personal trainer,Tier 2,Strong Made Simple,"5301 55th St, San Diego, CA 92115, USA",(619) 940-4822,https://strongmadesimple.com/,5,26,OPERATIONAL,ChIJS760_IBW2YARGtPHTcWuC3U
+30,carpet cleaning,Tier 1,Nice Guys Carpet Cleaning & Restoration,"4127 Wightman St, San Diego, CA 92105, USA",(619) 402-5596,https://www.niceguyscarpetcleaningandrestoration.com/,4.9,25,OPERATIONAL,ChIJU71y6zhV2YARcP9idd7HadI
+30,barber shop,Tier 2,The Networc Barbershop,"5410 El Cajon Blvd, San Diego, CA 92115, USA",(619) 815-4565,https://sandiegomenshaircuts.com/,4.6,25,OPERATIONAL,ChIJBcYb7KBX2YARyfh7-TzScvE
+30,roofing contractor,Tier 1,Martin Roofing,"6608 Federal Blvd, Lemon Grove, CA 91945, USA",(619) 287-6860,https://www.martinroofing.net/,4.8,24,OPERATIONAL,ChIJH571CEpR2YAR-EkDPEF7H2E
+30,landscaping,Tier 1,Sun Diego Landscape & Design,"2358 University Ave, San Diego, CA 92104, USA",(619) 779-4884,http://www.sundiegolandscapeanddesign.com/,5,23,OPERATIONAL,ChIJPeQ8wb1T2YAROOLb9Iw0lzk
+30,tile installation,Tier 1,ECC TILE SERVICES,"3242 A Kempf St, Lemon Grove, CA 91945, USA",(619) 327-8258,https://www.instagram.com/ecc_tile?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr,5,22,OPERATIONAL,ChIJgfZuH2BR2YARn_6OMZ7SDEI
+30,house painter,Tier 1,San Diego Painting Pros,"2003 Bayview Heights Dr SPC 146, San Diego, CA 92105, USA",(858) 293-8755,https://www.sandiegopaintingpros.co/,5,20,OPERATIONAL,ChIJu6eo9LxR2YARPWqWbYCG8K0
+30,pool service,Tier 1,Cabana Pool Service,"1223 Cleveland Ave Ste 200-305, San Diego, CA 92103, USA",(619) 789-0644,https://cabanapools.com/california/san-diego-pool-service/?utm_source=google_my_business&utm_medium=organic&utm_campaign=gbp_Cabana_SanDiego,5,20,OPERATIONAL,ChIJq-bnB3hV2YARuKLYXnMOIE8
+30,pressure washing,Tier 1,So Cal Cleaning Services,"7616 Conestoga Way, San Diego, CA 92120, USA",(619) 610-7436,https://socalcleaningservices.com/,5,18,OPERATIONAL,ChIJ2ZvK4Hz_24ARz5OQ0NkJzqU
+30,pool service,Tier 1,Blue Tide Swimming Pool Service & Repair,"6977 Navajo Rd, San Diego, CA 92119, USA",(619) 820-3377,http://www.bluetidepoolservice.com/,5,18,OPERATIONAL,ChIJuZO1rBhW2YARwTS0rcP3h5s
+30,house painter,Tier 1,NORDBY PAINTING,"3530 Sparling St, San Diego, CA 92115, USA",(619) 386-0121,http://nordbypainting.com/,5,17,OPERATIONAL,ChIJt9T-YrZW2YARhFE1Im7GzMc
+30,lash studio,Tier 2,Miss Eyelash Studio,"8132 La Mesa Blvd, La Mesa, CA 91942, USA",(619) 606-3369,http://misseyelashstudio.com/,4.4,17,OPERATIONAL,ChIJW-73YyOr3oARriU9kyXK5og
+30,lash studio,Tier 2,Hue Theory by Jenn Young,"8055 La Mesa Blvd #101, La Mesa, CA 91942, USA",(619) 614-7278,https://www.huetheory.net/,5,17,OPERATIONAL,ChIJzcYZ8tBX2YARUwd8gvwPnXo
+30,personal trainer,Tier 2,PHYZEKE FITNESS,"8380 Center Dr, La Mesa, CA 91942, USA",(619) 806-7877,https://www.werkfitness.com/zeke-casas-personal-trainer,5,17,OPERATIONAL,ChIJbWCu5-1X2YARfNWYESmjoVA
+30,pest control,Tier 1,Knott's Pest Control Inc.,"5141 Guild St, La Mesa, CA 91942, USA",(619) 320-1506,https://www.knottspestsd.com/,4.8,16,OPERATIONAL,ChIJI1FvkBlX2YAR-Eju0aU-050
+30,electrician,Tier 1,Balboa Electric,"7567 El Cajon Blvd Unit 8, La Mesa, CA 91942, USA",(619) 928-9894,http://www.balboaelectric.com/,5,16,OPERATIONAL,ChIJjSu06I3D0ggR_4PZICXafY8
+30,personal trainer,Tier 2,Anthony Sawh Fitness,"5301 55th St, San Diego, CA 92115, USA",(619) 274-1241,http://anthonysawh.com/,5,16,OPERATIONAL,ChIJyxVGPkpX2YARYDAdnztCC9c
+30,landscaping,Tier 1,Steve Schott Landscaping,"3676 38th St, San Diego, CA 92105, USA",(619) 733-8194,http://www.steveschottlandscaping.com/,5,14,OPERATIONAL,ChIJwU61jPDswK0R3ozk7TzEn44
+30,wedding photographer,Tier 2,Affordable Wedding Photographer San Diego,"1050 B St apt. 209, San Diego, CA 92101, USA",(858) 208-3562,https://www.affordableweddingphotographersandiego.com/,5,14,OPERATIONAL,ChIJQQAShSpV2YARMO8r3bnfJx8
+30,wedding photographer,Tier 2,"Affordable Wedding Planner San Diego / Cheap DJ, Photography, Videography & More!","6161 Fairmount Ave, San Diego, CA 92120, USA",(858) 754-8887,https://cheapweddingplannersandiego.com/,5,14,OPERATIONAL,ChIJZYY-NfFV2YARAOlCvezr-WE
+30,tile installation,Tier 1,Sun Diego Tile Installations,"4144 Alabama St Apt #3, San Diego, CA 92104, USA",(619) 300-8558,https://www.sundiegotileinstallations.com/,5,13,OPERATIONAL,ChIJdXXbkNpV2YARyeCNp6QqUJU
+30,lash studio,Tier 2,Artisan Lash Pro,"4455 Twain Ave, San Diego, CA 92120, USA",(760) 562-9214,https://artisanlashpro.glossgenius.com/services,5,13,OPERATIONAL,ChIJxwVAuGZV2YARNdrhp3sopEw
+30,tile installation,Tier 1,Stellar Tile & Marble,"3744 Swift Ave, San Diego, CA 92104, USA",(920) 637-0333,http://stellartileandmarble.com/,5,12,OPERATIONAL,ChIJq3ZX10VV2YARiLPvxDJVca0
+30,appliance repair,Tier 1,Gold Fox Repair,"7317 El Cajon Blvd, La Mesa, CA 91942, USA",(619) 944-7741,https://goldfoxrepair.com/,5,12,OPERATIONAL,ChIJRcET9-lX2YAR1X6uj_4jAMk
+30,appliance repair,Tier 1,T-Service,"6333 College Grove Way Apartment 11103, San Diego, CA 92115, USA",(619) 404-8083,https://t-service-sd.com/,4.8,12,OPERATIONAL,ChIJLaOz6VBSxUMRyBVr7CcIFMs
+30,window cleaning,Tier 1,Happy Squeegee,"Carmenita Rd, La Mesa, CA 91941, USA",(619) 495-0593,http://happysqueegee.com/,5,11,OPERATIONAL,ChIJe_fLPjlX2YARRpjjCc7lZK0
+30,lash studio,Tier 2,Lofty Lash Studio,"8148 La Mesa Blvd, La Mesa, CA 91942, USA",(619) 820-8978,http://www.loftylashstudio.com/,5,11,OPERATIONAL,ChIJy8m88HNX2YARIFRk65JBMbE
+30,personal trainer,Tier 2,The Yard L.L.C.,"7945 Broadway, Lemon Grove, CA 91945, USA",(858) 901-6209,https://www.theyardllcsd.com/application,5,11,OPERATIONAL,ChIJE28eGRoa_AARWq6aro9wwyw
+30,personal trainer,Tier 2,Workout With Kirk,"8803 1/2 La Mesa Blvd, La Mesa, CA 91942, USA",(619) 851-6980,http://workoutwithkirk.com/,5,11,OPERATIONAL,ChIJy6zJG0BX2YARbMEAPq1zumc
+30,plumber,Tier 1,San Diego Emergency Plumbing Tite,"4290 Polk Ave, San Diego, CA 92105, USA",(858) 392-4028,https://plumbtco.com/,5,10,OPERATIONAL,ChIJHZnAYgpV2YARhLthnmnwIuQ
+30,wedding photographer,Tier 2,Dear Darling Photography,"6530 College Grove Dr UNIT 63, San Diego, CA 92115, USA",,http://www.deardarlingphotography.com/,5,10,OPERATIONAL,ChIJ40Ukr4FX2YARH4pQQQsnMaI
+30,auto repair,Tier 2,Mid City Auto Repair,"5625 El Cajon Blvd, San Diego, CA 92115, USA",(619) 530-9885,http://www.midcityautorepair.com/,5,9,OPERATIONAL,ChIJxxq1s-5X2YARjY6jH_DS3K8
+30,electrician,Tier 1,Custom Electric SD,"5041 54th St, San Diego, CA 92115, USA",,http://www.customelectricsd.com/,5,9,OPERATIONAL,ChIJPdD_XI5V2YARwMEC-XWk3RU
+30,lash studio,Tier 2,Lashing Out Studio - La Mesa,"7373 University Ave Suite 205, La Mesa, CA 91942, USA",(619) 500-7101,https://lashing-out-studio-105803.square.site/,5,9,OPERATIONAL,ChIJG8tR5oVX2YARdZgNyBLEngQ
+30,handyman,Tier 1,ERB Handyman Service LLC,"5560 Ruffin Rd # 1, San Diego, CA 92123, USA",(619) 206-2873,https://www.erbhandyman.com/,5,8,OPERATIONAL,ChIJs93Dq_P_24ARleXXtGWMSiQ
+30,barber shop,Tier 2,Taylor Cutz Barbershop 2,"7281 El Cajon Blvd, San Diego, CA 92115, USA",(619) 335-8197,https://taylor-cutz-barbershop-sd.square.site/,5,7,OPERATIONAL,ChIJ-zOfy2xX2YARLYd2Wk9WJV8
+30,landscaping,Tier 1,Barrios Landscape Inc,"5878 Vale Way, San Diego, CA 92115, USA",(619) 888-1754,https://barrioslandscape.com/,5,6,OPERATIONAL,ChIJ6c-FH09X2YAR_5qddJYqTeM
+30,roofing contractor,Tier 1,JD Roofing Service,"3115 45th St, San Diego, CA 92105, USA",(619) 918-5702,http://www.jdroofingsd.com/,5,5,OPERATIONAL,ChIJQczHbXJV2YARZenodp_bTEU
+30,HVAC repair,Tier 1,San Diego HVAC Repair & Install,"3829 University Ave, San Diego, CA 92105, USA",(858) 392-4147,https://sandiegohvacrepairinstall.com/,5,5,OPERATIONAL,ChIJX4_JIO9V2YARahl3BeZ9yIA
+30,garage door repair,Tier 1,Precision Garage Door Service,"7339 El Cajon Blvd Suite L, La Mesa, CA 91942, USA",(619) 324-9835,https://mydoorteam.com/locations/california/la-mesa/?utm_source=gmb&utm_medium=location_la-mesa&utm_campaign=website,5,5,OPERATIONAL,ChIJsWK7nTZX2YAReW0VUK1ymGA
+30,nail salon,Tier 2,Sitting Pretty Nails,"6602 El Cajon Blvd, San Diego, CA 92115, USA",(619) 622-9944,https://busiussa.org/details/sitting-pretty-nails-ChIJ09w,5,5,OPERATIONAL,ChIJ09wsjHlX2YARFp-5KzrJRXo
+30,garage door repair,Tier 1,Full Access Garage Door's Service,"4035 Redwood St, San Diego, CA 92105, USA",(619) 626-2938,https://fullaccessgaragedoorsservice.site/,5,4,OPERATIONAL,ChIJn2e8G65V2YARW9l0FkSUWNo
+30,HVAC repair,Tier 1,Greatest HVAC Repair San Diego,"5328 Rex Ave, San Diego, CA 92105, USA",(858) 392-4285,http://greatesthvacrepairsandiego.com/,5,2,OPERATIONAL,ChIJQ3fMNwBV2YARgRiSQok1KlI
+30,HVAC repair,Tier 1,Awesome HVAC Repair San Diego,"1572 Ninth Ave, San Diego, CA 92101, USA",(858) 392-4284,http://awesomehvacrepairsandiego.com/,5,2,OPERATIONAL,ChIJPwXfSABV2YARqmGsbwq6wds
+30,roofing contractor,Tier 1,Reliable San Diego Roofer,"3335-41 Adams Ave, San Diego, CA 92116, USA",(858) 392-4008,http://reliablesandiegoroofer.com/,5,1,OPERATIONAL,ChIJ_2kBOQBV2YARJJqFiThre_g
+30,pest control,Tier 1,Five Star Pest Control San Diego,"6153 El Cajon Blvd, San Diego, CA 92115, USA",(858) 392-4096,http://fivestarpestcontrolsandiego.com/,5,1,OPERATIONAL,ChIJqXnNo5RX2YAR4ddBY8X8rIE
+30,pest control,Tier 1,Pro Pest Control San Diego,"5165 Waring Rd, San Diego, CA 92120, USA",(858) 392-4101,http://propestcontrolsandiego.com/,5,1,OPERATIONAL,ChIJb7_wiNpV2YARBE2f3DRcu5w
+30,pest control,Tier 1,Topline Pest Control San Diego,"6975-77 Navajo Rd, San Diego, CA 92119, USA",(858) 392-4099,http://toplinepestcontrolsandiego.com/,5,1,OPERATIONAL,ChIJe94KRytX2YARVwsAy5WicGk
+30,pest control,Tier 1,Superior Pest Control San Diego,"1490 S 43rd St, San Diego, CA 92113, USA",(858) 392-4091,http://superiorpestcontrolsandiego.com/,5,1,OPERATIONAL,ChIJQ4D5qO9T2YARdg1eCmLpdhc
+30,pressure washing,Tier 1,"San Diego Power Clean, Inc.","6495 Alvarado Rd, San Diego, CA 92120, USA",(619) 460-8177,http://www.sandiegopowerclean.com/,5,1,OPERATIONAL,ChIJo9z8vGlX2YAR55_HKuoyxyM
+30,tile installation,Tier 1,Tile Illusions & stone,"7051 Central Ave, Lemon Grove, CA 91945, USA",(619) 325-9226,https://tileillusionstoneinc.com/,5,1,OPERATIONAL,ChIJC0W7I9xR2YAR0Bg68KYeUpM
+30,tile installation,Tier 1,Dan Diaz Tile,"6461 Crawford St, San Diego, CA 92120, USA",(619) 286-6575,https://dandiaztile.com/,5,1,OPERATIONAL,ChIJAQAAAJxW2YARg3BdlnuUWBQ
+30,pool service,Tier 1,Perfect Care Pool Service,"5011 Chollas Pkwy, San Diego, CA 92105, USA",(619) 606-4834,http://www.perfectcarepools.com/,5,1,OPERATIONAL,ChIJre8VpwZU2YARGUXn_JYKo54
+30,appliance repair,Tier 1,Appliance Repair,"7317 El Cajon Blvd, La Mesa, CA 91942, USA",(619) 485-6484,https://www.appliancerepairsd.com/location/la-mesa/,5,1,OPERATIONAL,ChIJ__-Pl-ZW2YAROw6ZM2WhMac
+30,electrician,Tier 1,Moland Electricians,"4086 Marlborough Ave, San Diego, CA 92105, USA",(619) 374-8365,https://molandelectricians.store/,5,1,OPERATIONAL,ChIJt-ry4xdV2YART7EVDgReDJc
+20,tire shop,Tier 2,In & Out Tire Shop,"6211 University Ave, San Diego, CA 92115, USA",(619) 516-1099,,3.9,205,OPERATIONAL,ChIJ3RZRVblW2YAREwn_j6w36jc
+20,barber shop,Tier 2,Urban Cutz,"6781 El Cajon Blvd, San Diego, CA 92115, USA",(619) 467-7117,,4.2,161,OPERATIONAL,ChIJEyWwTuxW2YARRYWfgRox-00
+20,dry cleaner,Tier 2,US CLEANERS AND EMBROIDERY,"3605 College Ave, San Diego, CA 92115, USA",(619) 287-5968,http://uscleanerssd.com/,4.1,59,OPERATIONAL,ChIJCSmBqrdW2YARYKLVpwUkYQ0
+20,HVAC repair,Tier 1,Greater San Diego Air Conditioning Inc,"3883 Ruffin Rd, San Diego, CA 92123, USA",(619) 469-7818,https://www.gsdac.com/,3.8,27,OPERATIONAL,ChIJv6M6ry7-24AR8rqsIztLslM
+20,locksmith,Tier 1,KeyMe Locksmiths,"3603 College Ave, San Diego, CA 92115, USA",(619) 789-5526,https://key.me/kiosks/california/san-diego/san-diego/locksmith-key-copy-san-diego-7-eleven-92115-california,3.7,9,OPERATIONAL,ChIJi60SnV9X2YARqOoCglFN4zo
+20,roofing contractor,Tier 1,Alpha Roofer San Diego,"4739 63rd St, San Diego, CA 92115, USA",(858) 392-4007,http://alpharoofersandiego.com/,3.7,3,OPERATIONAL,ChIJcVfbEABX2YARt1kEvCp0ELw
+10,barber shop,Tier 2,Pappy's Premier Barber and Shop,"6547 El Cajon Blvd, San Diego, CA 92115, USA",(619) 230-5351,http://www.pappysbarbershop.com/,5,150,OPERATIONAL,ChIJwWt9ZxFX2YAR_p4KDUMPkmA
+10,lash studio,Tier 2,Beauty By Hannah Lebron,"7428 University Ave, La Mesa, CA 91942, USA",(619) 208-3212,http://www.hannahlebron.com/,4.9,149,OPERATIONAL,ChIJ9YwzIMBX2YAR3CS91Y-iVB0
+10,house painter,Tier 1,Ron Rice Painting & Consulting,"2667 Camino del Rio S Suite 204-1, San Diego, CA 92108, USA",(619) 208-4482,https://ronricepainting.com/,4.9,147,OPERATIONAL,ChIJQde3ZQ1Y2YARDwtxR7cG8S4
+10,moving company,Tier 1,Packman Moving LLC,"3025 1/2 J St, San Diego, CA 92102, USA",(619) 961-9960,http://www.packman-moving.com/,5,146,OPERATIONAL,ChIJmc2L5foJImsR9YyE4JPVQBk
+10,HVAC repair,Tier 1,Hamel's Air Conditioning & Heating Inc,"9890 Shadow Rd, La Mesa, CA 91941, USA",(619) 456-1488,http://comfortbros.com/,4.9,143,OPERATIONAL,ChIJ__8vlt9Z2YARSWsEZ7V_k58
+10,carpet cleaning,Tier 1,Dust To Shine Pro Clean,"7629 Normal Ave, La Mesa, CA 91941, USA",(619) 315-4218,http://d2scleaning.com/,5,139,OPERATIONAL,ChIJ7c-JaXpX2YARlH4EhP2c5lQ
+10,pool service,Tier 1,Swim Care Pool Services - San Diego Leak Detection Specialists,"4203 Genesee Ave #103-446, San Diego, CA 92117, USA",(858) 295-0443,https://sandiegopoolservice.net/?utm_campaign=gmb&utm_source=gmb,4.8,137,OPERATIONAL,ChIJuf9A1nMA3IARtrZ-loicsSY
+10,pest control,Tier 1,American Pest Control,"8100 Broadway STE E, Lemon Grove, CA 91945, USA",(619) 272-6889,https://www.americanpestcontrolinc.com/,4.8,133,OPERATIONAL,ChIJNY1_UNJQ2YARiH89gT9LKME
+10,barber shop,Tier 2,Big Mitch Barber Studio,"6602 El Cajon Blvd Suite A104, San Diego, CA 92115, USA",(619) 534-1432,http://www.bigmitchbarberstudio.com/,4.8,131,OPERATIONAL,ChIJAQA8KL9W2YARpF-XlRWsibs
+10,personal trainer,Tier 2,Renegade,"6375 El Cajon Blvd A, San Diego, CA 92115, USA",(619) 677-1861,https://renegadefit.com/college-area/,4.9,130,OPERATIONAL,ChIJI10ODDNX2YARslz6m08rEKM
+10,wedding photographer,Tier 2,Khoa Photography,"2881 Brosnan St, San Diego, CA 92111, USA",(858) 519-4588,http://www.khoakhoa.com/,5,129,OPERATIONAL,ChIJNb0nAVZV2YARJdrBF3CsG_U
+10,barber shop,Tier 2,The Cutt'n Edge,"6485 El Cajon Blvd, San Diego, CA 92115, USA",(619) 354-3083,http://thecuttnedgesd.com/,4.6,125,OPERATIONAL,ChIJ2f0YKL9W2YARLpG7Kps22W0
+10,roofing contractor,Tier 1,619 Roofing,"3930 Oregon St Suite 254, San Diego, CA 92104, USA",(619) 609-0214,https://619roofing.com/,4.8,123,OPERATIONAL,ChIJ667abtUB3IAR2Plzz8VSmzk
+10,tire shop,Tier 2,Nan's Tires & Wheels,"4884 University Ave, San Diego, CA 92105, USA",(619) 350-8568,https://www.nanstires.com/,4.4,122,OPERATIONAL,ChIJI02dtBlU2YARxsSYWG0Cbh8
+10,auto repair,Tier 2,TN Auto Repair,"6517 El Cajon Blvd, San Diego, CA 92115, USA",(619) 232-5505,https://tna.autos/,4.7,119,OPERATIONAL,ChIJmRyWAmNT2YARsMlGgSFI4q8
+10,moving company,Tier 1,Best Bet Movers,"2555 44th St, San Diego, CA 92105, USA",(619) 837-2943,https://bestbetmovers.com/,4.5,117,OPERATIONAL,ChIJkWFMjNpV2YARn_-c87d_c8k
+10,auto repair,Tier 2,Allman Family Auto,"7066 El Cajon Blvd, San Diego, CA 92115, USA",(619) 465-8686,http://www.allmanfamilyauto.com/,4.9,115,OPERATIONAL,ChIJlepcDgBZ2YARHBchhRTbWBU
+10,appliance repair,Tier 1,Life-Long Appliance Repair,"5310 Reservoir Dr, San Diego, CA 92115, USA",(619) 724-9780,https://www.lifelongappliance.com/,4.9,115,OPERATIONAL,ChIJP5KULI1W2YARWS_vlqtGw1c
+10,personal trainer,Tier 2,Landform Fitness,"6663 El Cajon Blvd, San Diego, CA 92115, USA",(619) 273-3277,https://www.landformfitness.com/,4.9,115,OPERATIONAL,ChIJd-tfa49V2YARxP6dZpPGFzk
+10,moving company,Tier 1,Flat Bid Moving | Moving Company San Diego,"8979 Complex Dr, San Diego, CA 92123, USA",(619) 324-0910,https://flatbidmoving.com/?utm_source=google&utm_medium=organic&utm_campaign=SanDiegoGBP,5,114,OPERATIONAL,ChIJEfQJJeNT2YARv5f9YwgrmAw
+10,pool service,Tier 1,Golden State Pools,"1286 University Ave, San Diego, CA 92103, USA",(858) 434-7536,http://www.gsppoolservice.com/?utm_source=GMB&utm_medium=local,4.9,113,OPERATIONAL,ChIJq6qqqtZU2YARe0Qzcsxto_c
+10,house painter,Tier 1,Bulman Painting,"4414 Long Branch Ave, San Diego, CA 92107, USA",(619) 565-7704,http://www.bulmanpaintingpros.com/,5,112,OPERATIONAL,ChIJZ6rGADGq3oARm05oqhtVVXE
+10,barber shop,Tier 2,Crossfaded Hair Studio,"6353 El Cajon Blvd, San Diego, CA 92115, USA",(619) 609-9067,http://www.crossfadedhairstudio.com/,5,111,OPERATIONAL,ChIJZ0MEFFNX2YARODubwo8Ea6A
+10,tax preparation,Tier 2,Taxlana,"4950 Waring Rd STE 8, San Diego, CA 92120, USA",(619) 602-0697,http://www.taxlana.com/,4.8,110,OPERATIONAL,ChIJ2cKcFtZV2YARsw3IbIfFUYY
+10,appliance repair,Tier 1,SmartFix Appliances,"6820 Hyde Park Dr, San Diego, CA 92119, USA",(619) 666-1372,http://smartfxappliance.com/,4.8,107,OPERATIONAL,ChIJxd1mrXJX2YARNGkatZkTR-A
+10,personal trainer,Tier 2,Werk Fitness Personal Training - La Mesa,"8380 Center Dr C, La Mesa, CA 91942, USA",(619) 279-3345,https://www.werkfitness.com/best-personal-trainers-la-mesa,4.9,107,OPERATIONAL,ChIJLR2bV0ZX2YARBrpcnUKoYhM
+10,moving company,Tier 1,Finch Moving And Storage La Mesa,"7317 El Cajon Blvd ste 201F, La Mesa, CA 91942, USA",(619) 880-8354,https://finchmovingservices.com/california/la_mesa_movers_moving_companies/,4.9,105,OPERATIONAL,ChIJvxHvIURX2YARQzMltJ3kFQY
+10,electrician,Tier 1,Blue Volt Electric,"9655-200 Granite Ridge Dr, San Diego, CA 92123, USA",(619) 614-8795,https://bluevoltelectric-sd.com/?utm_source=google&utm_medium=organic&utm_campaign=gmb,4.9,105,OPERATIONAL,ChIJJeClbKxM4ywRMwJuteBMu9w
+10,moving company,Tier 1,Movers Best San Diego – Local & Long Distance Movers,"2667 Camino del Rio S #301-1, San Diego, CA 92108, USA",(844) 880-5058,https://movers.best/?utm_campaign=gmb,5,104,OPERATIONAL,ChIJgRrH5nVV2YARDgB5Qg9qzBM
+10,auto repair,Tier 2,Carefree Auto Repair,"6556 EL CAJON BLVDSAN DIEGO, San Diego, CA 92115, USA",(619) 287-6840,https://carefree-autorepair.com/,4.7,104,OPERATIONAL,ChIJE3nQI5NW2YARJ0YAYqToxIc
+10,pool service,Tier 1,Priority Pool Service,"1940 Garnet Ave STE 370, San Diego, CA 92109, USA",(619) 391-0344,https://dive.prioritypools.com/gbppb,4.9,103,OPERATIONAL,ChIJCUszdfUB3IARDKKuZl0CxLM
+10,appliance repair,Tier 1,SpeedMates Home Services,"8638 Lake Ashmere Dr #59, San Diego, CA 92119, USA",(619) 365-5619,https://speedmates.com/locations/california/san-diego/,4.7,103,OPERATIONAL,ChIJv1aZwKNX2YAR_cPlp5Jvek4
+10,pool service,Tier 1,McKinney's Pool Service,"8157 Commercial St, La Mesa, CA 91942, USA",(619) 813-7417,https://www.mckinneyspool.com/,4.9,102,OPERATIONAL,ChIJM9CFzxtX2YARiBM47AOm_LE
+10,tree service,Tier 1,ESCOBAR TREE SERVICE & STUMP GRINDER,"3596 Chamoune Ave, San Diego, CA 92105, USA",(619) 771-8418,https://escobartreeservicestumpgrinder.com/,5,100,OPERATIONAL,ChIJJw-yjEpV2YARvQxH_xdvTMg
+10,pool service,Tier 1,ProTouch Pool Services,"7933 Silverton Ave #703, San Diego, CA 92126, USA",(858) 610-2635,https://protouchpoolservices.com/,4.8,100,OPERATIONAL,ChIJo7ncgKr524ARgfaxsk1bDOw
+10,tile installation,Tier 1,Star Flooring & Remodeling,"4610 Alvarado Canyon Rd Suite 1, San Diego, CA 92120, USA",(619) 282-4000,https://starflooringandremodeling.com/,4.6,96,OPERATIONAL,ChIJ7ZmoDlpU2YARRKZLtQqPihg
+10,handyman,Tier 1,San Diego Handyman | Express Services,"4881 Rolando Ct #79, San Diego, CA 92115, USA",(619) 456-0009,http://www.sdpro-handyman.com/,4.7,95,OPERATIONAL,ChIJPePr_lOq3oARVc9auN3WNz8
+10,pest control,Tier 1,Suncoast Pest Management,"7317 El Cajon Blvd #202C, La Mesa, CA 91942, USA",(619) 486-6327,https://www.suncoastpestmanagement.com/,5,95,OPERATIONAL,ChIJXw5XYSJZYAcRPZ_cxDHY1bA
+10,carpet cleaning,Tier 1,N F Carpet Care,"2632 69th St, Lemon Grove, CA 91945, USA",(619) 286-6530,http://nfcarpetcare.com/,5,95,OPERATIONAL,ChIJSXBuNTFR2YAR0ybe3M9cx_s
+10,personal trainer,Tier 2,Ageless Strength & Fitness,"8380 Center Dr C, La Mesa, CA 91942, USA",(626) 864-2690,https://agelessstrength.net/,5,95,OPERATIONAL,ChIJ_xk-vkSr3oARRxc7sdrxBXQ
+10,window cleaning,Tier 1,Squeegee Window Cleaning,"6161 El Cajon Blvd #424, San Diego, CA 92115, USA",,https://www.squeegeewindowcleaningsd.com/,5,93,OPERATIONAL,ChIJu0vMT-5W2YARavRQgMFNr1Q
+10,tree service,Tier 1,San Diego Tree Service Contractor,"3445 42nd St, San Diego, CA 92105, USA",(619) 944-3254,https://www.treeservicecontractor.com/,5,93,OPERATIONAL,ChIJDVNCglakYy0R1qGZzEGemNY
+10,pool service,Tier 1,GL Pools,"10769 Woodside Ave #204, Santee, CA 92071, USA",(619) 391-3258,https://glpools.com/santee-pool-service/?utm_source=google&utm_medium=organic&utm_campaign=gmb-santee-location,4.8,90,OPERATIONAL,ChIJ__-TvlZY2YARjnghXMZxv0M
+10,wedding photographer,Tier 2,ABM Wedding Photography,"3421 Tripp Ct STE 2, San Diego, CA 92121, USA",(949) 463-3038,https://www.abmweddingphotos.com/,5,90,OPERATIONAL,ChIJV-RMk8r424AR4PAgwEXxQx0
+10,house painter,Tier 1,Local San Diego Painting,"5814 College Ave, San Diego, CA 92120, USA",(619) 288-0656,https://localsandiegopainting.com/,4.9,89,OPERATIONAL,ChIJ25NALsNV2YART1LK-ISvRiw
+10,handyman,Tier 1,Matthew Jenkins Handyman,"4151 Lois St, La Mesa, CA 91941, USA",(484) 716-4727,http://matthewjenkinshandyman.com/,4.9,88,OPERATIONAL,ChIJjVwBoMJX2YARpxL-KrKQ2y0
+10,carpet cleaning,Tier 1,"Accountable Carpet, Tile, and Upholstery Cleaning","7230 Grable St, La Mesa, CA 91942, USA",(619) 760-5238,http://www.accountablecarpetclean.com/,4.9,85,OPERATIONAL,ChIJkfJyIGZT2YARIIlvJZTzaLo
+10,pest control,Tier 1,Suncoast Pest Management,"4827 Loukelton Way, San Diego, CA 92120, USA",(619) 486-6327,https://suncoastpestmanagement.com/,5,84,OPERATIONAL,ChIJy5MiMEtV2YARYwmvBhAKx04
+10,lash studio,Tier 2,LASH LIFT & BEAUTY CO,"2301 El Cajon Blvd, San Diego, CA 92104, USA",(619) 886-6454,http://www.beautybylauralashlift.com/,5,83,OPERATIONAL,ChIJKTYRc8VU2YAREWyQIosizMQ
+10,pool service,Tier 1,Payan Pool Service,"10054 Prospect Ave # B, Santee, CA 92071, USA",(619) 304-2232,http://www.payanpools.com/,4.6,82,OPERATIONAL,ChIJlwYtlQRY2YAR7aqAC_p_eX0
+10,tire shop,Tier 2,VH Tire Shop,"6620 El Cajon Blvd, San Diego, CA 92115, USA",(619) 719-9440,https://sandiegousedtires.com/,5,82,OPERATIONAL,ChIJ4R1Gdm1X2YARyvfdagLne6k
+10,personal trainer,Tier 2,Coach B's,"2527 University Ave, San Diego, CA 92104, USA",(619) 209-8206,https://www.coachbsd.com/,5,82,OPERATIONAL,ChIJA0dUOh5V2YARZjLchgGVfdo
+10,electrician,Tier 1,Point Break Electric,"1020 Leland St, Spring Valley, CA 91977, USA",(619) 454-0605,https://pointbreakelectricsd.com/,5,80,OPERATIONAL,ChIJDcabeQZR2YAROc5FK-Cwf1E
+10,lash studio,Tier 2,little lash shop,"8356 Allison Ave # D, La Mesa, CA 91942, USA",(619) 567-0606,http://littlelashshopsd.com/,5,80,OPERATIONAL,ChIJs-l9_XFX2YARuv4jcHDpQsY
+10,wedding photographer,Tier 2,Madeline Barr Photography,"San Diego Fwy, San Diego, CA 92116, USA",,https://www.madelinebarr.com/,5,79,OPERATIONAL,ChIJvZQz3UhV2YARLRDQZ6Jz5kE
+10,wedding photographer,Tier 2,Leaf Wedding Photography,"710 13th St #207, San Diego, CA 92101, USA",(858) 531-9560,http://www.leafweddingphotography.com/,5,79,OPERATIONAL,ChIJbxSqDgMB3IARTXUQHyfqFBk
+10,window cleaning,Tier 1,San Diego Window Cleaning,"8709 Ildica St, Spring Valley, CA 91977, USA",(619) 578-3118,https://sandiegowindowcleaning.biz/#cid=glbc,5,78,OPERATIONAL,ChIJVUERX-pQ2YARNmNUqOynkbI
+10,house painter,Tier 1,Double G Painting & General Contracting,"4565 Ruffner St Suite 109, San Diego, CA 92111, USA",(619) 665-0754,https://doublegpainters.com/,4.9,76,OPERATIONAL,ChIJ05sHQoT524ARCJM2rrVYgw4
+10,personal trainer,Tier 2,Synergy & Strength,"3468 Citrus St Suite C, Lemon Grove, CA 91945, USA",(619) 339-1177,http://synergyxstrength.com/,5,73,OPERATIONAL,ChIJxzpOp8xX2YARD1V7XyQLNYs
+10,wedding photographer,Tier 2,Paul Douda Photography,"7423 Rowena St, San Diego, CA 92119, USA",(619) 456-1417,http://www.pauldoudaphotography.com/,5,72,OPERATIONAL,ChIJb9nPFslQ2YARR9fy-R5wLmw
+10,roofing contractor,Tier 1,Streamline Roofing,"615 S Orange Ave, El Cajon, CA 92020, USA",(619) 938-5882,https://streamlineroof.com/?utm_source=google-business-profile&utm_medium=organic&utm_campaign=hook-gbp,5,71,OPERATIONAL,ChIJv8SBTeyhWwgRTrPewlAheHQ
+10,window cleaning,Tier 1,Fish Window Cleaning,"3658 Ruffin Rd Suite A, San Diego, CA 92123, USA",(619) 354-1399,https://www.fishwindowcleaning.com/San-Diego-CA-3177/,5,70,OPERATIONAL,ChIJHyqonCn-24AR62dtJY_k8KM
+10,wedding photographer,Tier 2,Bauman Photographers,"4562 Alvarado Canyon Rd R, San Diego, CA 92120, USA",(619) 232-3020,https://baumanphotographers.com/,4.9,69,OPERATIONAL,ChIJwzUre0lU2YARH7FBYFI9XP4
+10,wedding photographer,Tier 2,Janis Foley Photography,"1041 Market St UNIT 323, San Diego, CA 92101, USA",(619) 723-7677,https://www.janisfoley.com/,5,69,OPERATIONAL,ChIJkRIYnLRU2YARUKwSqmO4hRM
+10,window cleaning,Tier 1,"Top Tier Exterior Service - Window Cleaning, San Diego","7356 Parkway Dr, La Mesa, CA 91942, USA",(619) 890-8888,https://toptierexteriorservice.com/,5,67,OPERATIONAL,ChIJBW5TFCmIPIURIgYrrdIzkow
+10,tire shop,Tier 2,Winxton Tire Co.,"6944 El Cajon Blvd, San Diego, CA 92115, USA",(619) 626-5132,http://winxtontires.com/,4.9,67,OPERATIONAL,ChIJ6zllwTRX2YARMDMEBaUgYrY
+10,dry cleaner,Tier 2,San Diego Dry Cleaners & Alterations,"10415 San Diego Mission Rd, San Diego, CA 92108, USA",(619) 640-9355,http://www.sddrycleaners.com/,4.4,67,OPERATIONAL,ChIJ5cTGXbxV2YARnSJnu88HEcc
+10,tree service,Tier 1,Charles Tree Service,"3264 College Pl Suite 89, Lemon Grove, CA 91945, USA",(619) 379-7034,http://www.charlestreeservice.com/,4.8,65,OPERATIONAL,ChIJC8dQPzNR2YARfeYpcYjuS4U
+10,nail salon,Tier 2,Jassies Nail Lounge,"4541 College Ave, San Diego, CA 92115, USA",(619) 888-8287,http://www.jassiesnaillounge.com/,4.7,65,OPERATIONAL,ChIJH9dbDY5X2YARGBsOMPociWI
+10,locksmith,Tier 1,7 Day Locksmith Workshop San Diego,"4410 Glacier Ave #104, San Diego, CA 92120, USA",(858) 522-9722,https://7daylocksmith.com/,4.7,63,OPERATIONAL,ChIJJ9cZCcFV2YARzR6zdjR9keI
+10,roofing contractor,Tier 1,Atlas Roofing,"4455 Murphy Canyon Rd Ste 100, San Diego, CA 92123, USA",(866) 303-2912,https://atlasroofingpro.com/service-area/san-diego/?utm_source=google&utm_medium=gbp&utm_campaign=san_diego,4.9,63,OPERATIONAL,ChIJ_ah-bc7_24ARQNUXApP18ls
+10,house painter,Tier 1,MobileHome Painting Specialist,"10425 Tierrasanta Blvd #202, San Diego, CA 92124, USA",(858) 414-8350,http://www.mobilehomepainting.com/,5,63,OPERATIONAL,ChIJbde0B-__24ARztYqJ2akqKc
+10,roofing contractor,Tier 1,Pioneer Roofing Company,"3111 Camino Del Rio N #400, San Diego, CA 92108, USA",(619) 432-7663,https://www.pioneerroofer.com/,4.9,62,OPERATIONAL,ChIJcbNIQC1V2YARo3XFnf-qRTI
+10,carpet cleaning,Tier 1,City's Finest Carpet Care,"Trojan Ave, San Diego, CA 92115, USA",(619) 485-0696,http://www.citysfinestcarpetcare.com/,4.9,62,OPERATIONAL,ChIJYZPnxOxW2YARJLS2jXuYKsY
+10,lash studio,Tier 2,Eyemazing Beauty Bar,"6602 El Cajon Blvd Suite F, San Diego, CA 92115, USA",(619) 209-8730,https://www.eyemazingbeautybarca.com/,4.8,62,OPERATIONAL,ChIJJ7FeAWRX2YARzJ_XMv53PUY
+10,lash studio,Tier 2,Belle Âme Beauty Studio Lemon Grove,"7733 Palm St Ste 207, Lemon Grove, CA 91945, USA",(619) 825-7070,http://www.belleamebeautystudio.com/,5,62,OPERATIONAL,ChIJvegvlcVR2YARgtEIqOE8EXU
+10,tax preparation,Tier 2,Jackson Hewitt Tax Service,"3412 College Ave, San Diego, CA 92115, USA",(619) 589-1012,https://office.jacksonhewitt.com/tax-preparation-services-locations/en/ca/san-diego/3412-college-ave/52479?utm_source=google&utm_medium=local&utm_campaign=local&utm_content=52479,4.7,61,OPERATIONAL,ChIJcW0upstW2YARaGI4zfrKPsA
+10,tax preparation,Tier 2,"Italiano Tax Solutions, Inc. Dba Lacy Italiano, EA","7851 University Ave Ste 208, La Mesa, CA 91942, USA",(619) 460-4790,http://www.lacyitaliano.com/,5,61,OPERATIONAL,ChIJpz4PF_5U2YARE0b6zvMJyjI
+10,auto repair,Tier 2,Hong Auto Service,"5312 El Cajon Blvd, San Diego, CA 92115, USA",(619) 265-0635,http://www.hongautoservice.com/,4.8,60,OPERATIONAL,ChIJwXn54AZV2YAR6hI6VnZ6lhQ
+0,tire shop,Tier 2,La Mesa Tire Company,"6231 University Ave, San Diego, CA 92115, USA",(619) 583-1556,https://www.lamesatirecompany.com/,4.2,139,OPERATIONAL,ChIJL5ugVrlW2YARqazIt46YihA
+0,nail salon,Tier 2,UT Nails & Spa,"6512 El Cajon Blvd ste f, San Diego, CA 92115, USA",(619) 589-5259,https://www.facebook.com/UT-Nails-Spa-102947985016762,4.2,127,OPERATIONAL,ChIJQ3OHsu1W2YARl6_e377prKg
+0,nail salon,Tier 2,Victorian Nails,"5961 El Cajon Blvd, San Diego, CA 92115, USA",(619) 286-7616,http://www.facebook.com/sdvictoriannails,4.2,68,OPERATIONAL,ChIJt1_NtIVW2YAR0jUDjGfPz3I
+0,pressure washing,Tier 1,"All County Power Wash & Steam Cleaning, Inc.","6401 El Cajon Blvd, San Diego, CA 92115, USA",(619) 807-9624,http://www.allcountypowerwash.com/,,0,OPERATIONAL,ChIJS0EpeMhX2YARW9ESmDctrr0
+-20,pest control,Tier 1,Joshua's Pest Control,"6867 Nancy Ridge Dr Suite E, San Diego, CA 92121, USA",(858) 547-9900,https://joshuaspestcontrol.com/locations/san-diego/,4.8,4573,OPERATIONAL,ChIJ0U7roc_424AR8hcp0beoxU0
+-20,pest control,Tier 1,Thrasher Pest Control,"8957 Complex Dr, San Diego, CA 92123, USA",(619) 407-9078,https://thrasherpest.com/?utm_campaign=gmb&utm_content=san-diego-ca&utm_medium=gbp&utm_source=google,5,2966,OPERATIONAL,ChIJFXwmd8ys3oARmARRKN5sAT0
+-20,pest control,Tier 1,Orkin,"9471 Ridgehaven Ct STE A, San Diego, CA 92123, USA",(619) 821-3580,https://www.orkin.com/locations/california-ca/san-diego-pest-control/branch-827?utm_source=local&utm_medium=local&utm_campaign=LCL0302,4.8,1839,OPERATIONAL,ChIJRTBQHDP-24ARHY7VRNmzIIY
+-20,HVAC repair,Tier 1,"Same Day Heating, Cooling, Plumbing","9771 Clairemont Mesa Blvd Suite E, San Diego, CA 92124, USA",(619) 486-3325,https://samedaysd.com/,4.8,1717,OPERATIONAL,ChIJV4uqnjb_24AR2immIIwsWIs
+-20,electrician,Tier 1,"Point Loma Electric, Plumbing, Heating & Air","4990 Viewridge Ave Suite 100, San Diego, CA 92123, USA",(619) 738-3101,http://pointlomahomepros.com/,4.9,1610,OPERATIONAL,ChIJ9fRTzuqq3oAR-ugwW4K_T-Y
+-20,locksmith,Tier 1,Tc locksmith Inc,"6850 Mission Gorge Rd, San Diego, CA 92120, USA",(760) 462-6212,https://tclocksmithsd.com/,4.9,1532,OPERATIONAL,ChIJM01s2DhV2YARsa5hcSJ3mv0
+-20,garage door repair,Tier 1,John's Garage Door Services,"3052 Clairemont Dr STE 5, San Diego, CA 92117, USA",(619) 880-5480,https://johnsgaragesd.com/,5,1382,OPERATIONAL,ChIJdaasBekc0EYRfBOIdQNkS_Q
+-20,garage door repair,Tier 1,Rockstar Garage Door Services,"4455 Murphy Canyon Rd Ste 100, San Diego, CA 92123, USA",(619) 930-9854,https://rsgaragedoorservices.com/,4.9,1185,OPERATIONAL,ChIJkRjvhFQH3IARzDLSHHPG56E
+-20,carpet cleaning,Tier 1,Monster Steamer Carpet Cleaning,"3780 Swift Ave UNIT 15, San Diego, CA 92104, USA",(619) 201-9480,https://monstersteamer.net/?utm_source=GBP&utm_medium=organic&utm_campaign=main-button-gbp,5,1104,OPERATIONAL,ChIJeTYCP4ZO2YARJ7AGzUDqiM8
+-20,moving company,Tier 1,A+ Movers,"168 Millar Ave, El Cajon, CA 92020, USA",(619) 219-4987,https://aplusmoverssd.com/,5,935,OPERATIONAL,ChIJC22u86RZ2YARUCuJ6i0ZhC8
+-20,locksmith,Tier 1,The Key Crew Locksmith,"3501 Adams Ave Suite B, San Diego, CA 92116, USA",(619) 209-3554,https://thekeycrew.com/,4.8,886,OPERATIONAL,ChIJecfQhlNU2YARyvS1Wrt60Vc
+-20,barber shop,Tier 2,Pappy's Barber Shop San Diego,"6545 El Cajon Blvd, San Diego, CA 92115, USA",(619) 885-2887,http://www.pappysbarbershop.com/,4.8,836,OPERATIONAL,ChIJBcT31ZZW2YARcJZk2toVDbM
+-20,moving company,Tier 1,STELLA MOVING & DELIVERY | SAN DIEGO,"2341 Ulric St B-12, San Diego, CA 92111, USA",(619) 393-6426,https://www.stellamoving.com/?utm_campaign=gmb,4.9,834,OPERATIONAL,ChIJhQF38a2r3oARZJshaXF_06E
+-20,window cleaning,Tier 1,Shine Bright San Diego,"5111 Santa Fe St Unit B and C, San Diego, CA 92109, USA",(619) 789-4467,http://www.shinebrightsd.com/?utm_source=gmb&utm_medium=organic&utm_campaign=SanDiego,4.9,810,OPERATIONAL,ChIJDxbS8R8A3IARK2WdC-MVR1w
+-20,locksmith,Tier 1,Noble Locksmith,"8734 Lake Murray Blvd, San Diego, CA 92119, USA",(619) 304-6128,https://noblelockandkey.com/,4.9,724,OPERATIONAL,ChIJQfjxQFxT2YARbGkDUq_rN1E
+-20,garage door repair,Tier 1,ADS Garage Doors and Gates Repair,"6837 Nancy Ridge Dr Suite I, San Diego, CA 92121, USA",(858) 544-8225,https://www.automaticdoorspecialists.com/?utm_source=gbp&utm_medium=organic&utm_campaign=gbp-san-diego,4.9,719,OPERATIONAL,ChIJYWQ-RVYH3IARKyMS-ZNEmTk
+-20,HVAC repair,Tier 1,Friar's Plumbing Heating and AC Repair,"5555 Magnatron Blvd Ste G, San Diego, CA 92111, USA",(619) 317-1730,https://www.friarsair.com/ac-repair-san-diego-ca/,4.9,641,OPERATIONAL,ChIJpwI-XBtT2YARWjWddiSqsNk
+-20,nail salon,Tier 2,Elite Nails&Lash Nail Salon La Mesa CA,"7297 University Ave, La Mesa, CA 91942, USA",(619) 461-4663,http://elitenailsandlashlamesa.com/,4.9,633,OPERATIONAL,ChIJUeiNU51X2YARnAEKZdBmiIE
+-20,pest control,Tier 1,Lloyd Pest & Termite Control,"935 Sherman St, San Diego, CA 92110, USA",(619) 298-9865,https://www.lloydpest.com/service-areas/pest-control-in-san-diego-ca?utm_source=gbplistings&utm_medium=organic&utm_campaign=935-sherman-st,4.8,630,OPERATIONAL,ChIJnaL2M-qq3oARaOJqLr4ltzE
+-20,electrician,Tier 1,SRP Electric Inc.,"5980 Fairmount Ave #108, San Diego, CA 92120, USA",(858) 900-8535,https://www.srpelectricinc.com/,5,576,OPERATIONAL,ChIJB744LFRR2YARQqxjfOjzpWE
+-20,locksmith,Tier 1,Busy Bees Locks & Keys Locksmith,"6160 Fairmount Ave STE F, San Diego, CA 92120, USA",(619) 733-0172,https://www.busybeeslocksmith.com/,5,565,OPERATIONAL,ChIJp3tl_6lV2YAR-dIviAv9OqM
+-20,moving company,Tier 1,Space Moving & Storage,"7901 Civita Blvd #452, San Diego, CA 92108, USA",(858) 334-5644,http://space-moving.com/?utm_campaign=gmb,4.9,522,OPERATIONAL,ChIJh-a4IDVV2YARlHxqtZVh7wY
+-20,handyman,Tier 1,Unstoppable Handyman Services,"2873 Citronella Ave, Lemon Grove, CA 91945, USA",(619) 815-7588,http://www.unstoppablehandyman.com/,4.9,505,OPERATIONAL,ChIJcdFaCY5T2YARd5T7bwCV3sk
+-20,garage door repair,Tier 1,ProperShop Garage Door Services,"5980 Fairmount Ave # 111, San Diego, CA 92120, USA",(858) 544-1561,https://propershopgarage.com/locations/ca/san-diego,5,476,OPERATIONAL,ChIJcy5WDQzXYwYR7CmicckoEU0
+-20,pest control,Tier 1,Mission Pest Control,"4080 Centre St Suite 207 #2, San Diego, CA 92103, USA",(619) 413-9590,https://missionpestcontrol.com/san-diego-ca/?utm_source=gbp&utm_medium=organic&utm_campaign=san-diego-2,4.9,474,OPERATIONAL,ChIJ-aRQgctV2YARZzjjYbJhAP4
+-20,garage door repair,Tier 1,Open Sesame Garage Doors and Gates,"4060 Rosarita Dr, La Mesa, CA 91941, USA",(619) 330-9335,https://garagedoorrepairlamesa.com/,5,474,OPERATIONAL,ChIJQSuh3ZpV2YAR_VhdoLf-pM0
+-20,moving company,Tier 1,College Hunks Hauling Junk and Moving San Diego,"3944 Murphy Canyon Rd Suite C102, San Diego, CA 92123, USA",(619) 651-9687,https://www.collegehunkshaulingjunk.com/san-diego/?utm_source=GMB&utm_medium=organic&utm_campaign=ca-san-diego-478,4.9,471,OPERATIONAL,ChIJwT3shET_24ARwfCTMGBs7cw
+-20,wedding photographer,Tier 2,PKA Photo & Video,"915 W Grape St Apt 507, San Diego, CA 92101, USA",(619) 948-2826,http://www.pkaphoto.com/,5,442,OPERATIONAL,ChIJ21DnlHwA4IwRpNrOBGlCCJM
+-20,plumber,Tier 1,"E-Drains, Inc.","7353 El Cajon Blvd Suite 100, La Mesa, CA 91942, USA",(844) 353-7246,https://edrains.com/?utm_source=ds_gbp_listing&utm_medium=organic+&utm_campaign=gbp_mainbutton,4.7,411,OPERATIONAL,ChIJAQDAT-FW2YARhbQnrnVxxDc
+-20,auto repair,Tier 2,Bond's Automotive & Collision,"7215 El Cajon Blvd, San Diego, CA 92115, USA",(619) 461-7623,http://bondsautomotive.com/,4.8,404,OPERATIONAL,ChIJvUI9QO9W2YARxYUQV74IO38
+-20,garage door repair,Tier 1,Best Garage Door & Gate Repair Services,"300 14th St APT 910, San Diego, CA 92101, USA",(619) 877-6218,https://bestgaragedoor.us/,5,396,OPERATIONAL,ChIJGSgRTs1T2YARKOrrjYMdDH4
+-20,moving company,Tier 1,CHRISTINE'S MOVERS,"1947 Dartmoor Dr, Lemon Grove, CA 91945, USA",(619) 669-8565,https://www.christinesmovers.com/,5,379,OPERATIONAL,ChIJ20OI_YJR2YARoK7VOFW1LYw
+-20,nail salon,Tier 2,"Nail's Paradise and Spa - Nail Salon San Diego, CA","7032 El Cajon Blvd, San Diego, CA 92115, USA",(619) 466-8208,http://nailsparadiseandspa.com/,4.8,372,OPERATIONAL,ChIJf-hSPO9W2YAR5l6sOMcictQ
+-20,plumber,Tier 1,American Plumbing Co | Plumber in San Diego,"422 21st St, San Diego, CA 92102, USA",(619) 723-1114,https://plumbersandiegoonline.com/,4.9,366,OPERATIONAL,ChIJ_3iUbmZT2YARntaBbzEIKpU
+-20,lash studio,Tier 2,Unique Threading,"6784 El Cajon Blvd, San Diego, CA 92115, USA",(619) 609-5413,https://uniq-beauti.com/services/,5,344,OPERATIONAL,ChIJ-f0mGIpX2YARuwHmeit_sZ8
+-20,garage door repair,Tier 1,Genius garage door,"7125 Galewood St, San Diego, CA 92120, USA",(858) 239-2313,https://geniusgaragedoor.com/,5,326,OPERATIONAL,ChIJVQwQMrqr3oARTHqWm5N4Xpw
+-20,carpet cleaning,Tier 1,Stuart Quick Dry Carpet Cleaning,"9536 Corte De La Donna, Santee, CA 92071, USA",(619) 788-1618,https://stuartcarpetcleaning.com/,5,322,OPERATIONAL,ChIJRY9cD7o4QQIRowldFcyF0AE
+-20,plumber,Tier 1,"John Padilla Plumbing, Sewer and Drains","8101 La Mesa Blvd Suite #4, La Mesa, CA 91942, USA",(619) 648-5231,https://www.jpplumbers.com/areas-we-serve/la-mesa-ca,4.9,320,OPERATIONAL,ChIJJ7aKkun_24ARe0wQv4hIJAY
+-20,electrician,Tier 1,Sal & Son Electric,"10135 Diamond Head Ct, Spring Valley, CA 91977, USA",(858) 335-6179,https://salsonselectricinc.net/,5,315,OPERATIONAL,ChIJmb4kvCzqLUwRtUXjkzhlToE
+-20,plumber,Tier 1,Get Rooter & Plumbing,"2272 Madroncillo St, San Diego, CA 92114, USA",(619) 706-9996,http://getrooternow.com/,4.9,292,OPERATIONAL,ChIJ5fzkOqOL24ARb6oQmsCb-Xc
+-20,carpet cleaning,Tier 1,Eco-Dry Carpet Care,"3821 Utah St #5, San Diego, CA 92104, USA",(619) 944-8870,http://www.eco-dry.net/,4.9,290,OPERATIONAL,ChIJSV-OVPFU2YARl38dZDER_eg
+-20,pest control,Tier 1,Harbor Pest Control,"6160 Fairmount Ave Suite K, San Diego, CA 92120, USA",(619) 584-8155,https://harborpest.com/?utm_source=google&utm_medium=organic&utm_campaign=san-diego-gmb,4.7,288,OPERATIONAL,ChIJQ54KtsBV2YARKyXvrypM1no
+-20,house painter,Tier 1,Lifetime Custom Painting Inc,"3601 30th St, San Diego, CA 92104, USA",(619) 314-8622,https://lifetimecustom.com/?utm_source=google&utm_medium=business-profile&utm_campaign=google-business-profile,4.9,274,OPERATIONAL,ChIJabiCnCdM2YAR_tjsxtD_0ZM
+-20,moving company,Tier 1,Aid-U Moving Company,"6029 Fairmount Ave ste c, San Diego, CA 92120, USA",(858) 329-0900,https://aidumoving.com/,4.9,268,OPERATIONAL,ChIJLZthalP_24ARRwE1FcGuBm8
+-20,tire shop,Tier 2,SOCAL TIRE DEPOT,"4596 El Cajon Blvd A, San Diego, CA 92115, USA",(619) 665-8705,http://www.socaltiredepot.com/,4.6,266,OPERATIONAL,ChIJPVRSCDxU2YAR3GxaMoG4A24
+-20,carpet cleaning,Tier 1,Imperial Carpet Cleaning San Diego,"2305 Historic Decatur Rd Suite 100, San Diego, CA 92106, USA",(858) 688-2246,https://www.imperialcarpetclean.com/,4.9,253,OPERATIONAL,ChIJf-rkmR-r3oAR6H8-25lrdrY
+-20,house painter,Tier 1,PaintGreen,"8861 Balboa Ave STE A, San Diego, CA 92123, USA",(619) 446-6983,http://www.paintgreen.com/,5,246,OPERATIONAL,ChIJ_RRoIz9V2YARdciA5A3o544
+-20,pressure washing,Tier 1,San Diego Pressure Washing and Window Cleaning,"14516 Twin Peaks Rd, Poway, CA 92064, USA",(858) 703-7250,https://sandiegopressurewashing.com/?utm_source=gmb&utm_medium=organic&utm_campaign=san_diego_pressure_washing,4.9,243,OPERATIONAL,ChIJq6qqqrr124ARPROjTnGt90I
+-20,pressure washing,Tier 1,San Diego Softwash,"239 Laurel St, San Diego, CA 92101, USA",(619) 933-0257,https://sandiego-softwash.com/,4.9,242,OPERATIONAL,ChIJR_DcvJhV2YARZE53xzyqDCY
+-20,auto repair,Tier 2,Stress-Free Auto Care,"7633 El Cajon Blvd # 300, La Mesa, CA 91942, USA",(619) 463-1484,https://www.stressfree.com/shops/la-mesa,4.9,238,OPERATIONAL,ChIJ3bO6M-BW2YARQrb6oHcClMI
+-20,appliance repair,Tier 1,Spark Appliance Repair,"2637 Summitview Ln, Spring Valley, CA 91977, USA",(619) 330-5105,https://sparkappliancerepair.us/?utm_source=gmb&utm_medium=site,5,235,OPERATIONAL,ChIJL9WiVOkMvYAR5A1RDoQRMU4
+-20,appliance repair,Tier 1,ECH Appliance Repair,"3145 31st St, San Diego, CA 92104, USA",(619) 642-2444,https://echappliancerepair.com/,4.9,235,OPERATIONAL,ChIJ7TF_pr9V2YARTNPYAnwKZzY
+-20,tire shop,Tier 2,Team Power Tires,"6130 El Cajon Blvd, San Diego, CA 92115, USA",(619) 225-7662,https://www.teampowertires.com/,4.8,231,OPERATIONAL,ChIJt0J-OpdW2YARCTU9lJ9xups
+-20,plumber,Tier 1,Ideal Plumbing Heating Air Electrical,"5161 Waring Rd, San Diego, CA 92120, USA",(619) 320-5990,https://idealservice.com/?utm_source=google-gbp&utm_medium=organic&utm_campaign=*384*ideal-plumbing-san-diego,4.8,228,OPERATIONAL,ChIJFTYRO99V2YARWJSIZ107HcI
+-20,plumber,Tier 1,American Plumbing Group,"4401 Twain Ave ste#1, San Diego, CA 92120, USA",(619) 534-7034,https://www.americanplumbinggroup.com/,5,226,OPERATIONAL,ChIJwwG3Q_D_24ARoSDWVaN-R7Y
+-20,HVAC repair,Tier 1,Smith & Sons Heating and Air Inc.,"8859 Balboa Ave STE E, San Diego, CA 92123, USA",(619) 251-9285,https://smithandsonsheatandair.com/,5,225,OPERATIONAL,ChIJuUleiaoGbiIRA8cXb--a-dA
+-20,tile installation,Tier 1,La Mesa Flooring Company,"8772 La Mesa Blvd, La Mesa, CA 91942, USA",(619) 463-7755,https://lamesaflooring.com/,4.8,221,OPERATIONAL,ChIJARhuBkBX2YARVU_XpdZ5Crw
+-20,moving company,Tier 1,Lion Pride Moving,"8900 Grossmont Blvd Suite 4.3, La Mesa, CA 91941, USA",(619) 341-4554,https://lionpridemoving.com/,4.9,220,OPERATIONAL,ChIJj8xnVz-Gu0kRFBYgnzmNZNI
+-20,HVAC repair,Tier 1,Jackson & Foster Heating and Air Conditioning,"7574 University Ave, La Mesa, CA 91942, USA",(619) 667-4328,https://jacksonfoster.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp,4.9,216,OPERATIONAL,ChIJvY_FNN9W2YARF8qksZHMnoQ
+-20,plumber,Tier 1,Discount Plumbing San Diego,"2535 Camino Del Rio N, San Diego, CA 92108, USA",(619) 329-8394,https://www.discountplumbingsandiego.com/?utm_campaign=gmb,4.5,213,OPERATIONAL,ChIJFQchifZV2YAR9O9lX6He12Y
+-20,garage door repair,Tier 1,Radford Garage Doors & Gates of San Diego,"9185 Chesapeake Dr, San Diego, CA 92123, USA",(858) 408-6744,https://radfordgaragedoor.com/,4.9,213,OPERATIONAL,ChIJe9wZv63_24ARepQnmnkIXq0
+-20,garage door repair,Tier 1,San Diego Garage Doors,"4170 Cartagena Dr, San Diego, CA 92115, USA",(619) 386-2521,https://mysdgaragedoors.com/,4.9,212,OPERATIONAL,ChIJZQ1BR8dV2YARGh0sQZBEnzg
+-20,landscaping,Tier 1,CM Precision Tree and Landscape Maintenance Inc,"4401 Twain Ave, San Diego, CA 92120, USA",(619) 983-1030,https://treeserviceinsandiego.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp,5,207,OPERATIONAL,ChIJA2062T1V2YAR758byMsz6Uo
+-20,appliance repair,Tier 1,Appliance Service Center,"5005 Texas St Ste 485, San Diego, CA 92108, USA",(619) 719-5005,https://appliancerepair-sd.com/services/,4.9,207,OPERATIONAL,ChIJ7xgGMbN5q20R0eKizBDbJ0M
+-20,appliance repair,Tier 1,858 Appliance Repair,"3701 El Cajon Blvd, San Diego, CA 92105, USA",(858) 277-5426,https://www.858appliance.com/,4.8,195,OPERATIONAL,ChIJfeOWI0VU2YAR5BxYh2EnlDw
+-20,pool service,Tier 1,Priority Pool Service,"16950 Via De Santa Fe Suite 5060-104, Rancho Santa Fe, CA 92067, USA",(619) 391-0353,https://dive.prioritypools.com/gbprsf,4.9,193,OPERATIONAL,ChIJ6U-1QSwB3IARuPVPbfzNyzo
+-20,lash studio,Tier 2,Rbeauty,"4966 El Cajon Blvd, San Diego, CA 92115, USA",(619) 882-1340,https://rbeautysd.com/,4.9,193,OPERATIONAL,ChIJD_7nYe7_24ARDOAl4N7fefE
+-20,auto repair,Tier 2,Bowman's Garage - San Diego Auto Repair,"4622 College Ave, San Diego, CA 92115, USA",(619) 582-5258,https://bowmansgaragesd.com/,4.8,192,OPERATIONAL,ChIJ_8n0WZdW2YARFSlTTPB8noM
+-20,lash studio,Tier 2,"LASHBAR La Mesa | East County Eyelash Extensions, Lash Lift, Brow Lamination, Threading & Waxing","5208 Jackson Dr #110, La Mesa, CA 91942, USA",(619) 736-3617,https://www.lashbar.com/lamesa,5,185,OPERATIONAL,ChIJ4fAI3U9X2YARs6xs-68tYs4
+-20,electrician,Tier 1,Service Pro Electrical Inc.,"2358 University Ave #2082, San Diego, CA 92104, USA",(619) 707-3008,http://serviceproelectrical.com/,4.9,184,OPERATIONAL,ChIJJ5haXPYg3YARr4Mx485RcdM
+-20,carpet cleaning,Tier 1,Under The Rug Floorcare Carpet Cleaning San Diego,"5722 El Cajon Blvd, San Diego, CA 92115, USA",(619) 567-1389,http://www.undertherugfloorcare.com/?utm_campaign=gmb,5,176,OPERATIONAL,ChIJZWQ1qShV2YARNFawBVgeL3Q
+-20,nail salon,Tier 2,Queen nail and hair,"5114 El Cajon Blvd, San Diego, CA 92115, USA",(619) 582-8888,http://www.queennailsandhair.com/,4.6,173,OPERATIONAL,ChIJvYh2QiFU2YAR8u0GOlX_s60
+-20,tree service,Tier 1,Pedro's Tree Service,"1105 W Chase Ave SPC 4, El Cajon, CA 92020, USA",(619) 547-1379,https://pedrostreeserviceca.com/?utm_campaign=gmb,4.9,169,OPERATIONAL,ChIJS2PLH3RPwSwRLIO8zrpSUtI
+-20,house painter,Tier 1,Procoat Painting San Diego,"9461 Grossmont Summit Dr Suite B, La Mesa, CA 91941, USA",(619) 292-0121,https://procoatpaintingsandiego.com/,4.9,169,OPERATIONAL,ChIJZZepjWZX2YAR1jtN4hth-WE
+-20,moving company,Tier 1,San Diego Moving and Packing Services,"5922 El Cajon Blvd Unit 5, San Diego, CA 92115, USA",(858) 531-8343,https://packingmoverca.com/?utm_campaign=gmb,5,169,OPERATIONAL,ChIJQQNnqIE_7mYRFL0XgEBfOs4
+-20,barber shop,Tier 2,Razor Fresh,"5255 El Cajon Blvd, San Diego, CA 92115, USA",(619) 677-7472,https://razorfreshbarbershop.com/,4.9,164,OPERATIONAL,ChIJQ5Mi1OVV2YARwWNU5xZmdZ0
+-20,HVAC repair,Tier 1,Friar's Plumbing Heating and AC Repair,"270 E Douglas Ave, El Cajon, CA 92020, USA",(619) 317-1303,https://www.friarsair.com/el-cajon-air-conditioning-services/,5,163,OPERATIONAL,ChIJzzVZBvdZ2YARmkYKJbu3Rjs
+-20,HVAC repair,Tier 1,Comfort Air Conditioning & Heating,"7318 Conestoga Ct, San Diego, CA 92120, USA",(858) 519-8003,https://www.comfortacandheating.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp,5,161,OPERATIONAL,ChIJTTWGMTJX2YAR3lUa4uIzOkw
+-20,appliance repair,Tier 1,Appliance Repair Local,"6328 Quillan St, San Diego, CA 92111, USA",(619) 877-6655,https://appliance-repair-local.com/,4.9,156,OPERATIONAL,ChIJj2AePijd24ARJY4ft1rAEio
+-20,carpet cleaning,Tier 1,McCall's Carpet Cleaning San Diego Tile And Grout,"1331 India St, San Diego, CA 92101, USA",(619) 583-6411,https://mccallscarpetcleaning.com/,4.9,154,OPERATIONAL,ChIJ_7pMGqxU2YARYW-B2w9kDKs
+-20,dry cleaner,Tier 2,Magic Touch Cleaners,"4196 Adams Ave, San Diego, CA 92116, USA",(619) 281-0031,https://magictouchsd.com/,4.6,151,OPERATIONAL,ChIJNZqVlklU2YARevWnX7mG7Aw
+-30,tire shop,Tier 2,Pep Boys Auto Service & Tires,"6714 El Cajon Blvd, San Diego, CA 92115, USA",(619) 354-7061,https://www.pepboys.com/stores/ca/san-diego/6714-el-cajon-blvd?Cid=gbp_appt_AN:PB%7CPB:G%7CTT:GBP%7CCG:CONVERSION%7CCD:SERVICE,4.2,679,OPERATIONAL,ChIJezsxAe1W2YARBHb-jqHv9zw
+-50,tire shop,Tier 2,Noah's Tires Shop,"4828 El Cajon Blvd, San Diego, CA 92115, USA",(619) 391-9329,https://noahstires.com/,3.4,794,OPERATIONAL,ChIJK8-fTyNU2YARxcOJMfQxqbI

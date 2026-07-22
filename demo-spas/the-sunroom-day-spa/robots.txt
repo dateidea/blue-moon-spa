@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://the-sunroom-day-spa.vercel.app/sitemap.xml

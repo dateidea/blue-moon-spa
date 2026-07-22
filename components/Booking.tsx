@@ -2,185 +2,88 @@
 
 import { useState } from "react";
 import Reveal from "./Reveal";
+import SectionRail from "./SectionRail";
 
 const services = [
-  "Full Body, 60 min — $50",
-  "Foot Massage, 60 min — $50",
-  "Shiatsu, 60 min — $60",
-  "Couples Room — $95 per person",
-  "Add 30 minutes — $25",
+  "Body massage",
+  "Foot reflexology",
+  "Hot stone",
+  "Couples room",
   "Not sure — recommend something",
 ];
 
 export default function Booking() {
   const [submitted, setSubmitted] = useState(false);
-
-  function onSubmit(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-    setSubmitted(true);
-  }
-
+  function onSubmit(e: React.FormEvent<HTMLFormElement>) { e.preventDefault(); setSubmitted(true); }
   return (
-    <section
+    <SectionRail
       id="booking"
-      className="relative overflow-hidden bg-cream-deep py-28 md:py-36"
-      aria-labelledby="booking-heading"
+      eyebrow="Get in touch"
+      index="06"
+      labelledBy="booking-heading"
+      bg="bg-cream-deep"
+      heading={
+        <h2 id="booking-heading" className="display text-center text-[44px] leading-[1.02] md:text-[68px]">
+          The fastest way<br />
+          <span className="display-italic text-ink-soft">to book is to call.</span>
+        </h2>
+      }
+      rail={<>If you would rather text than call, send us a note and we will text back the same day during open hours.</>}
     >
-      <div className="mx-auto max-w-[1180px] px-6 md:px-10">
-        <div className="grid grid-cols-12 gap-x-6 gap-y-16">
-          <Reveal variant="fade" className="col-span-12 md:col-span-5">
-            <p className="eyebrow">Book a session</p>
-            <h2
-              id="booking-heading"
-              className="display mt-4 text-[44px] leading-[1.04] md:text-[72px]"
-            >
-              Let&rsquo;s pick
-              <br />
-              <span className="italic font-light text-ink/55">a time.</span>
-            </h2>
-            <p className="mt-8 max-w-[44ch] text-[16px] leading-[1.8] text-ink/75">
-              Tell us when you&rsquo;re thinking and what hurts. We&rsquo;ll reply within
-              one business day. Most messages get a same-day text. No spam, no
-              follow-up sequence, no sales pressure.
-            </p>
-
-            <div className="mt-12 space-y-8 border-t border-hairline pt-8">
-              <div>
-                <p className="eyebrow">Or, faster</p>
-                <a
-                  href="tel:+16197246464"
-                  className="display mt-3 block text-[40px] leading-none text-clay hover:text-clay-deep md:text-[52px]"
-                >
-                  (619) 724-6464
-                </a>
-                <p className="mt-3 text-[14px] text-ink/55">
-                  Picked up by a real person, every day, 9 AM – 11 PM.
-                </p>
-              </div>
-
-              <div>
-                <p className="eyebrow">Walk-ins</p>
-                <p className="mt-3 text-[15px] text-ink/75">
-                  6956 El Cajon Blvd, San Diego, CA 92115. Free lot in front.
-                  We can almost always fit you in within 30 minutes — try us.
-                </p>
-              </div>
+      <div className="grid grid-cols-12 items-start gap-x-6 gap-y-12 md:gap-x-12">
+        <Reveal className="col-span-12 md:col-span-5">
+          <div className="space-y-10 border-t border-hairline pt-10">
+            <div>
+              <p className="index-badge">Call</p>
+              <a href="tel:+16193370166" className="display mt-4 block text-[36px] leading-none text-ink hover:text-eucalyptus-deep md:text-[44px]">(619) 337-0166</a>
+              <p className="mt-3 text-[13px] uppercase tracking-[0.16em] text-mid">A real person at the front desk, every day, 9 AM &ndash; 9 PM.</p>
             </div>
-          </Reveal>
-
-          <Reveal variant="curtain" delay={120} className="col-span-12 md:col-span-6 md:col-start-7">
-            <div
-              className="p-8 md:p-12"
-              style={{
-                background: "var(--color-cream-soft)",
-                border: "1px solid var(--color-hairline)",
-              }}
-            >
-              {!submitted ? (
-                <form onSubmit={onSubmit} className="flex flex-col gap-7">
-                  <div className="flex flex-col gap-2">
-                    <label
-                      htmlFor="name"
-                      className="text-[11px] tracking-[0.22em] uppercase text-clay smallcaps"
-                    >
-                      Your name
-                    </label>
-                    <input
-                      id="name"
-                      name="name"
-                      required
-                      autoComplete="name"
-                      className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink placeholder:text-ink/30 focus:border-clay focus:outline-none"
-                      placeholder="First and last"
-                    />
-                  </div>
-
-                  <div className="flex flex-col gap-2">
-                    <label
-                      htmlFor="contact"
-                      className="text-[11px] tracking-[0.22em] uppercase text-clay smallcaps"
-                    >
-                      Phone or email
-                    </label>
-                    <input
-                      id="contact"
-                      name="contact"
-                      required
-                      className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink placeholder:text-ink/30 focus:border-clay focus:outline-none"
-                      placeholder="Whatever's easiest"
-                    />
-                  </div>
-
-                  <div className="flex flex-col gap-2">
-                    <label
-                      htmlFor="service"
-                      className="text-[11px] tracking-[0.22em] uppercase text-clay smallcaps"
-                    >
-                      What you&rsquo;re thinking
-                    </label>
-                    <select
-                      id="service"
-                      name="service"
-                      defaultValue={services[0]}
-                      className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink focus:border-clay focus:outline-none"
-                    >
-                      {services.map((s) => (
-                        <option key={s}>{s}</option>
-                      ))}
-                    </select>
-                  </div>
-
-                  <div className="flex flex-col gap-2">
-                    <label
-                      htmlFor="message"
-                      className="text-[11px] tracking-[0.22em] uppercase text-clay smallcaps"
-                    >
-                      When works · what hurts (optional)
-                    </label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      rows={4}
-                      className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink placeholder:text-ink/30 focus:border-clay focus:outline-none"
-                      placeholder="e.g. Tuesday after 6 — lower back, side sleeper. First visit."
-                    />
-                  </div>
-
-                  <button
-                    type="submit"
-                    className="btn-primary mt-2 inline-flex items-center justify-center self-start rounded-none px-8 py-4 text-[12px] tracking-[0.22em] uppercase"
-                  >
-                    Request a time
-                  </button>
-
-                  <p className="text-[12px] text-ink/55">
-                    We&rsquo;ll respond within 1 business day. No spam. No sales
-                    pressure. Your info doesn&rsquo;t go anywhere else.
-                  </p>
-                </form>
-              ) : (
-                <div className="flex min-h-[420px] flex-col justify-center">
-                  <p className="eyebrow text-clay">Got it</p>
-                  <h3 className="display mt-3 text-[34px] leading-[1.1] md:text-[44px]">
-                    Thanks. We&rsquo;ll text you back today.
-                  </h3>
-                  <p className="mt-6 max-w-[44ch] text-[16px] text-ink/75">
-                    If you don&rsquo;t hear from us by tomorrow morning, please call{" "}
-                    <a
-                      href="tel:+16197246464"
-                      className="link-underline text-clay"
-                    >
-                      (619) 724-6464
-                    </a>
-                    . Sometimes texts don&rsquo;t make it through and we hate to keep
-                    you waiting.
-                  </p>
+            <div>
+              <p className="index-badge">Walk in</p>
+              <p className="mt-3 text-[15px] leading-[1.85] text-ink-soft">6957 El Cajon Blvd, San Diego, CA 92115. Free lot in front. Walk-ins welcome.</p>
+              <a href="https://maps.app.goo.gl/JMd4asWRLgScwdAv7" target="_blank" rel="noreferrer" className="link-underline mt-3 inline-block text-[13px] uppercase tracking-[0.16em] text-mid">Get directions &rarr;</a>
+            </div>
+            <div>
+              <p className="index-badge">Hours</p>
+              <p className="mt-3 text-[15px] leading-[1.85] text-ink-soft">Daily, 9 AM &ndash; 9 PM. Last appointment taken before close.</p>
+            </div>
+          </div>
+        </Reveal>
+        <Reveal delay={120} className="col-span-12 md:col-span-6 md:col-start-7">
+          <div className="bg-cream p-8 shadow-[0_1px_0_rgba(0,0,0,0.04)] md:p-12">
+            {!submitted ? (
+              <form onSubmit={onSubmit} className="flex flex-col gap-7">
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="name" className="index-badge">Your name</label>
+                  <input id="name" name="name" required autoComplete="name" className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink placeholder:text-mid/60 focus:border-ink focus:outline-none" placeholder="First and last" />
                 </div>
-              )}
-            </div>
-          </Reveal>
-        </div>
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="contact" className="index-badge">Phone or email</label>
+                  <input id="contact" name="contact" required className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink placeholder:text-mid/60 focus:border-ink focus:outline-none" placeholder="Whatever is easiest" />
+                </div>
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="service" className="index-badge">Interested in</label>
+                  <select id="service" name="service" defaultValue={services[0]} className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink focus:border-ink focus:outline-none">
+                    {services.map((s) => (<option key={s}>{s}</option>))}
+                  </select>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <label htmlFor="message" className="index-badge">When works · what hurts (optional)</label>
+                  <textarea id="message" name="message" rows={4} className="border-b border-hairline bg-transparent py-3 text-[18px] text-ink placeholder:text-mid/60 focus:border-ink focus:outline-none" placeholder="e.g. Tuesday after 6 — lower back, side sleeper. First visit." />
+                </div>
+                <button type="submit" className="btn-primary mt-2 inline-flex items-center justify-center self-start rounded-full px-8 py-4 text-[12px] tracking-[0.16em] uppercase">Send message</button>
+                <p className="text-[12px] text-mid">We will text you back the same day during open hours. For an immediate hold, please call (619) 337-0166.</p>
+              </form>
+            ) : (
+              <div className="flex min-h-[420px] flex-col justify-center">
+                <p className="eyebrow text-eucalyptus-deep">Got it</p>
+                <h3 className="display mt-3 text-[34px] leading-[1.1] md:text-[40px]">Thanks. We will text you back today.</h3>
+                <p className="mt-6 max-w-[44ch] text-[16px] leading-[1.85] text-ink-soft">If you do not hear from us by tomorrow morning, please call <a href="tel:+16193370166" className="link-underline text-ink">(619) 337-0166</a>.</p>
+              </div>
+            )}
+          </div>
+        </Reveal>
       </div>
-    </section>
+    </SectionRail>
   );
 }

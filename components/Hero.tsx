@@ -1,95 +1,60 @@
 "use client";
 
-import Reveal from "./Reveal";
+import { useEffect, useRef } from "react";
 import { asset } from "@/lib/asset";
 
 export default function Hero() {
+  const imgRef = useRef<HTMLDivElement | null>(null);
+  useEffect(() => {
+    const node = imgRef.current;
+    if (!node) return;
+    if (typeof window !== "undefined" && window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let raf = 0;
+    const onScroll = () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        const y = window.scrollY;
+        node.style.transform = `translate3d(0, ${y * 0.05}px, 0) scale(1.04)`;
+      });
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => { cancelAnimationFrame(raf); window.removeEventListener("scroll", onScroll); };
+  }, []);
+
   return (
-    <section
-      id="top"
-      className="relative isolate w-full overflow-hidden text-cream min-h-[100svh] flex flex-col justify-end"
-    >
-      {/* Background image */}
-      <div
-        aria-hidden
-        className="absolute inset-0 -z-20"
-        style={{
-          backgroundImage: `url(${asset("/images/hero-01.jpg")})`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      />
-      {/* Scrim for text legibility */}
-      <div
-        aria-hidden
-        className="absolute inset-0 -z-10"
-        style={{
-          background:
-            "linear-gradient(180deg, rgba(20,20,18,0.50) 0%, rgba(20,20,18,0.18) 35%, rgba(20,20,18,0.55) 70%, rgba(20,20,18,0.88) 100%)",
-        }}
-      />
+    <section id="top" className="relative isolate flex min-h-[100svh] w-full items-center justify-center overflow-hidden bg-cream text-ink">
+      <div ref={imgRef} className="absolute inset-0 -z-10 will-change-transform"
+        style={{ backgroundImage: `url(${asset("/images/hero-01.jpg")})`, backgroundSize: "cover", backgroundPosition: "center", backgroundColor: "#f4efe6" }} aria-hidden />
+      {/* Creamy scrim — keeps the hero on a warm cream surface even with the image behind it */}
+      <div className="absolute inset-0 -z-10"
+        style={{ background: "linear-gradient(180deg, rgba(244,239,230,0.85) 0%, rgba(244,239,230,0.78) 50%, rgba(244,239,230,0.92) 100%)" }} aria-hidden />
 
-      <div className="relative mx-auto w-full max-w-[1180px] px-6 pt-32 pb-16 md:px-10 md:pt-40 md:pb-24">
-        <div className="grid grid-cols-12 gap-6">
-          <Reveal variant="fade" className="col-span-12">
-            <p className="eyebrow mb-10 text-cream/80">
-              Happy Spa &middot; <span className="smallcaps">Established</span>
-              {" "}on El Cajon Boulevard, San Diego
-            </p>
-          </Reveal>
-          <Reveal variant="curtain-up" className="col-span-12">
-            <h1 className="display text-[44px] leading-[1.0] sm:text-[64px] md:text-[92px] lg:text-[112px] text-cream">
-              An honest hour
-              <br />
-              <span className="italic font-light text-cream/70">
-                your shoulders have been
-              </span>
-              <br />
-              waiting for.
-            </h1>
-          </Reveal>
-
-          <Reveal variant="fade" delay={200} className="col-span-12 md:col-span-7 mt-12">
-            <p className="max-w-[46ch] text-[17px] leading-[1.75] text-cream/85 md:text-[19px]">
-              A small, massage studio on El Cajon Boulevard.
-              Sixty minutes of Swedish, deep tissue, or both — with hot
-              stones and warm essential oil included, every time. Open
-              every day, 9:30 AM – 10 PM. Combo: 30 min foot + 30 min body for $45.
-            </p>
-            <div className="mt-10 flex flex-wrap items-center gap-6">
-              <a
-                href="#booking"
-                className="inline-flex items-center bg-cream text-ink px-7 py-4 text-[12px] tracking-[0.22em] uppercase hover:bg-clay hover:text-cream transition-colors"
-              >
-                Book a session
-              </a>
-              <a
-                href="tel:+16197246464"
-                className="link-underline text-[14px] tracking-[0.05em] text-cream"
-              >
-                Or call (619) 724-6464
-              </a>
-            </div>
-          </Reveal>
-
-          <Reveal
-            variant="fade"
-            delay={300}
-            className="col-span-12 md:col-span-4 md:col-start-9 mt-12 self-end"
-          >
-            <div className="border-t border-cream/30 pt-6 text-[13px] text-cream/70 md:text-right">
-              <span className="block eyebrow text-[10px] mb-2 text-cream/60">Open Tonight</span>
-              Until 11&nbsp;PM &middot; walk-ins welcome <br />
-              Hot stones &middot; essential oil &middot; included
-            </div>
-          </Reveal>
+      <div className="mx-auto w-full max-w-[1100px] px-6 pt-40 pb-32 text-center md:px-10 md:pt-48 md:pb-40">
+        <p className="eyebrow">Gold Spa &middot; 6957 El Cajon Blvd &middot; San Diego</p>
+        <h1 className="display mt-10 text-[44px] leading-[1.04] sm:text-[60px] md:text-[80px] lg:text-[96px] text-ink">
+          Warm hands. A quiet room.
+          <br />
+          <span className="display-italic text-ink/70">An hour to set down</span>
+          <br />
+          what the week piled on.
+        </h1>
+        <p className="mx-auto mt-10 max-w-[58ch] text-[17px] leading-[1.85] text-ink-soft md:text-[19px]">
+          A small neighborhood massage spa on El Cajon Boulevard. Warm towels, a quiet table, and the unhurried kind of hour your shoulders remember three days later. Open every day, 9 AM to 9 PM. Walk-ins welcome.
+        </p>
+        <div className="mt-12 flex flex-wrap items-center justify-center gap-x-8 gap-y-4">
+          <a href="tel:+16193370166" className="btn-primary inline-flex items-center rounded-full px-8 py-4 text-[12px] tracking-[0.16em] uppercase">
+            Call (619) 337-0166
+          </a>
+          <a href="#booking" className="link-underline text-[14px] tracking-[0.04em] text-ink">
+            Or send a message
+          </a>
         </div>
       </div>
 
-      <div className="relative mx-auto w-full max-w-[1180px] px-6 pb-6 text-[11px] tracking-[0.22em] uppercase text-cream/65 md:px-10 md:pb-8 flex flex-wrap items-center justify-between gap-4">
-        <span>· LGBTQ+ friendly</span>
-        <span>4.5★ — Google reviews</span>
-        <span aria-hidden>Scroll ↓</span>
+      <div className="pointer-events-none absolute inset-x-0 bottom-6 mx-auto flex max-w-[1100px] items-end justify-between px-6 text-[10px] tracking-[0.24em] uppercase text-mid md:px-10">
+        <span>Walk-ins welcome &middot; Daily, 9 AM &ndash; 9 PM</span>
+        <span aria-hidden className="hidden md:inline">Scroll &darr;</span>
       </div>
     </section>
   );

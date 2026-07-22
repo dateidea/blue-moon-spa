@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://family-wellness-center-demo.vercel.app/sitemap.xml

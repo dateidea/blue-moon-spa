@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oasis-8-massage.vercel.app/sitemap.xml

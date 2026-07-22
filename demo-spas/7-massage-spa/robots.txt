@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://7-massage-and-spa-demo.vercel.app/sitemap.xml

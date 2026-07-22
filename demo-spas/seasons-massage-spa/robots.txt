@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://seasons-massage-spa-demo.vercel.app/sitemap.xml

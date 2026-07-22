@@ -9,11 +9,16 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://navajo-spa.vercel.
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: { default: "Happy Spa — An Honest Hour on El Cajon Boulevard, San Diego", template: "%s · Happy Spa" },
-  description: "Happy Spa at 6956 El Cajon Blvd, San Diego. Foot reflexology, full body, deep tissue, hot stone. Open every day, 9 AM to 10:30 PM. Combo: 30 min foot + 30 min body for $45. Walk-ins welcome. Call (619) 724-6464.",
-  keywords: ["Happy Spa","massage San Diego","El Cajon Blvd massage","foot massage San Diego","reflexology San Diego","deep tissue massage San Diego","hot stone massage San Diego","combo massage El Cajon Blvd","College Area massage","walk-in massage San Diego"],
-  openGraph: { title: "Happy Spa — An Honest Hour on El Cajon Boulevard, San Diego", description: "Foot, full body, deep tissue, hot stone. Combo: 30 min foot + 30 min body for $45. Open every day, 9 AM to 10:30 PM at 6956 El Cajon Blvd, San Diego.", url: SITE_URL, siteName: "Happy Spa", locale: "en_US", type: "website", images: [{ url: "/images/og-01.jpg", width: 1200, height: 630, alt: "Happy Spa — quiet treatment room on El Cajon Boulevard, San Diego" }] },
-  twitter: { card: "summary_large_image", title: "Happy Spa — An Honest Hour on El Cajon Boulevard, San Diego", description: "Combo: 30 min foot + 30 min body for $45. Open every day, 9 AM to 10:30 PM.", images: ["/images/og-01.jpg"] },
+  title: { default: "Gold Spa — 6957 El Cajon Blvd, San Diego", template: "%s · Gold Spa" },
+  description: "Gold Spa is a massage spa at 6957 El Cajon Blvd, San Diego, CA 92115. Open every day, 9 AM to 9 PM. Walk-ins welcome. Call (619) 337-0166 for current pricing and to book.",
+  keywords: ["Gold Spa","massage San Diego","El Cajon Blvd massage","walk-in massage San Diego","College Area massage spa"],
+  openGraph: {
+    title: "Gold Spa — 6957 El Cajon Blvd, San Diego",
+    description: "A massage spa at 6957 El Cajon Blvd, San Diego. Open every day, 9 AM to 9 PM. Call (619) 337-0166 to book.",
+    url: SITE_URL, siteName: "Gold Spa", locale: "en_US", type: "website",
+    images: [{ url: "/images/og-01.jpg", width: 1200, height: 630, alt: "Gold Spa — 6957 El Cajon Blvd, San Diego" }],
+  },
+  twitter: { card: "summary_large_image", title: "Gold Spa — 6957 El Cajon Blvd, San Diego", description: "Open every day, 9 AM to 9 PM. Call (619) 337-0166.", images: ["/images/og-01.jpg"] },
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
 };
@@ -26,12 +31,12 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org", "@type": "MassageTherapy", "@id": `${SITE_URL}/#business`,
-          name: "Happy Spa", image: `${SITE_URL}/images/hero-01.jpg`, url: SITE_URL,
-          telephone: "+16197246464", priceRange: "$$",
-          address: { "@type": "PostalAddress", streetAddress: "6956 El Cajon Blvd", addressLocality: "San Diego", addressRegion: "CA", postalCode: "92115", addressCountry: "US" },
-          geo: { "@type": "GeoCoordinates", latitude: 32.7689095, longitude: -117.0451089 },
-          openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], opens: "09:00", closes: "22:30" }],
-          paymentAccepted: "Cash, Apple Pay", hasMap: "https://maps.app.goo.gl/6R3zcMDtZ2aZ9SgF8",
+          name: "Gold Spa", image: `${SITE_URL}/images/hero-01.jpg`, url: SITE_URL,
+          telephone: "+16193370166",
+          address: { "@type": "PostalAddress", streetAddress: "6957 El Cajon Blvd", addressLocality: "San Diego", addressRegion: "CA", postalCode: "92115", addressCountry: "US" },
+          geo: { "@type": "GeoCoordinates", latitude: 32.7683792, longitude: -117.0479536 },
+          openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"], opens: "09:00", closes: "21:00" }],
+          paymentAccepted: "Cash, Credit Card", hasMap: "https://maps.app.goo.gl/JMd4asWRLgScwdAv7",
         }) }} />
       </body>
     </html>
